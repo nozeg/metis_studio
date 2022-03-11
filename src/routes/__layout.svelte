@@ -3,29 +3,27 @@
 </script>
 
 <div class="layout">
+  <div class="nav-container">
+    <Nav />
+  </div>
 
-    <div class="nav-container">
-        <Nav />
-    </div>
-    
-    <main>
-
-        <slot />
-    </main>
+  <main>
+    <slot />
+  </main>
 </div>
-    
-    <style>
+
+<style>
   .nav-container {
     width: 264px;
     min-height: 264px;
-    flex-shrink:0;
+    flex-shrink: 0;
   }
 
   .layout {
-      display: flex;
+    display: flex;
   }
 
   main {
-      flex-grow:1;
+    flex-grow: 1;
   }
 </style>
