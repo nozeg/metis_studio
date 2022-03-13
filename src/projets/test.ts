@@ -1,7 +1,9 @@
-import type Projet from "../types/projet";
+import type Projet from '../types/projet';
 
 const test: Projet = {
-  images: ['toto']
-}
+  images: [{ src: '/Analytique.gif', alt: 'analytique' }],
+  description: 'Bonjour ceci est une description',
+  titre: 'Projet test',
+};
 
-export default test
+export default test;

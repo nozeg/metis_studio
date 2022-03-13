@@ -2,22 +2,21 @@
   import type Projet from '../types/projet';
 
   export let projet: Projet;
-console.log(projet)
 </script>
 
 <div class="flex">
   <div class="content">
-    <img src="/inv-img/inv-1-01-01.jpg" alt="INV1" />
-    <img src="/inv-img/Cremaillere.gif" alt="CRE" />
+    {#each projet.images as image}
+      <img src={image.src} alt={image.alt} />
+    {/each}
   </div>
   <div class="description">
     <div class="description-fixed">
-      <div class="titre">Titre BON MATIN</div>
-      <pre>
-
-        {JSON.stringify(projet, null, 2)}
-      </pre>
-      <div class="tags">outil de médiation ; faune ; dessins à la main ; dépliant ; réalisé</div>
+      <div class="titre">{projet.titre}</div>
+      <p>{projet.description}</p>
+      {#if projet?.tags?.length > 0}
+        <div class="tags">{projet.tags.join(' ; ')}</div>
+      {/if}
     </div>
   </div>
 </div>

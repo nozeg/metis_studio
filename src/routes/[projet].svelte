@@ -1,19 +1,19 @@
 <script context="module" lang="ts">
-  import type { LoadOutput } from '@sveltejs/kit';
-  import type Projet from '../types/projet';
-  import type { SvelteComponent } from 'svelte';
-  export const load = async ({ params }): Promise<LoadOutput> => {
+  import type Projet from '$types/projet';
+
+  // la fonction de chargement des projets
+  export const load = async ({ params }) => {
     try {
-      const {default: projet}: SvelteComponent = await import(`../projets/${params.projet}.ts`);
+      const { default: projet } = await import(`../projets/${params.projet}.ts`);
       return {
         props: {
-          projet
-        }
+          projet,
+        },
       };
     } catch (error) {
       return {
         status: 404,
-        error: error.message
+        error: error.message,
       };
     }
   };
