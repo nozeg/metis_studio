@@ -18,7 +18,7 @@
   <div class="petites-boites">
     <div class="ptite-boite">
       <div class="image-gifs">
-        <img src="/icone_crayon-infini.gif" alt="crayon" />
+        <img src="/Icone_crayon-infini.gif" alt="crayon" />
       </div>
       <div class="titre-box">Graphiques</div>
       <div class="box">
@@ -29,7 +29,7 @@
 
     <div class="ptite-boite">
       <div class="image-gifs">
-        <img src="/vivants.gif" alt="vivants" />
+        <img src="/Vivants.gif" alt="vivants" />
       </div>
       <div class="titre-box">Vivants</div>
       <div class="box">l’organisation de processus participatifs, de visites de site, etc.</div>
@@ -48,7 +48,7 @@
 
     <div class="ptite-boite">
       <div class="image-gifs">
-        <img src="/icone_maison-infini.gif" alt="maison" />
+        <img src="/Icone_maison-infini.gif" alt="maison" />
       </div>
       <div class="titre-box">En volume</div>
       <div class="box">les maquettes, les expositions, etc.</div>
