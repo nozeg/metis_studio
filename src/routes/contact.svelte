@@ -1,4 +1,5 @@
 <div class="titre">Contactez-moi !</div>
+<img src="/Vague.gif" alt="vague" />
 
 <div class="texte bold">Métis studio</div>
 <div class="texte">+33 6 45 82 13 91</div>

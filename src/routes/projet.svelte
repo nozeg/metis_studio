@@ -1,5 +1,6 @@
 <div class="flex">
   <div class="content">
+    <img src="/inv-img/Caravanserail-3-01.jpg" alt="INV2" />
     <img src="/inv-img/inv-1-01-01.jpg" alt="INV1" />
     <img src="/inv-img/Cremaillere.gif" alt="CRE" />
   </div>
