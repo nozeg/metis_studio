@@ -24,8 +24,9 @@
     transition-duration: 150ms;
     display: flex;
     justify-content: center;
-    padding: 16px;
+
     text-decoration: none;
+    margin: 20px;
   }
 
   .projetINV span {
@@ -37,6 +38,7 @@
   .projetINV:hover {
     background-color: var(--Colorprojet);
     background-image: none;
+    padding: 30px;
   }
 
   .projetINV:hover span {

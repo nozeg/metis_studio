@@ -21,6 +21,32 @@
     image="/inv-img/Amin.jpg"
     colorbox="#e6b399"
   />
+
+  <LienProjet
+    titre="SAT - Ecole chantier"
+    lien="/projet"
+    image="/Icone_maison-infini.gif"
+    colorbox="#e6b399"
+  />
+
+  <LienProjet
+    titre="SAT - Ecole chantier"
+    lien="/projet"
+    image="/inv-img/CaraMockup.jpg"
+    colorbox="#a7802e"
+  />
+  <LienProjet
+    titre="SAT - Ecole chantier"
+    lien="/projet"
+    image="/inv-img/Amin.jpg"
+    colorbox="#4d6e56"
+  />
+  <LienProjet
+    titre="SAT - Ecole chantier"
+    lien="/projet"
+    image="/inv-img/Amin.jpg"
+    colorbox="#a7802e"
+  />
 </div>
 
 <style>
