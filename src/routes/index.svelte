@@ -15,7 +15,12 @@
     image="/inv-img/Cremaillere.gif"
     colorbox="#37553e"
   />
-  <LienProjet titre="INV - Villes invisibles" lien="/projet" />
+  <LienProjet
+    titre="SAT - Ecole chantier"
+    lien="/projet"
+    image="/inv-img/Amin.jpg"
+    colorbox="#e6b399"
+  />
 </div>
 
 <style>

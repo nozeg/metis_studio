@@ -26,10 +26,11 @@
 
   .content {
     flex-grow: 1;
+    justify-content: center;
   }
 
   .description {
-    width: 333px;
+    width: 400px;
     flex-shrink: 0;
   }
 
@@ -37,8 +38,8 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 333px;
-    padding: 100px 16px 16px 16px;
+    width: 400px;
+    padding: 100px 30px 16px 30px;
     text-align: justify;
     color: #4d6e56;
     font-size: 14px;
