@@ -189,7 +189,7 @@
   .petites-boites {
     display: flex;
     text-align: center;
-    padding: 16px 16px 16px 60px;
+    padding: 16px 16px 16px 16px;
     color: #4d6e56;
   }
 
