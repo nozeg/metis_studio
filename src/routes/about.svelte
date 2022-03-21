@@ -1,5 +1,7 @@
+<img class="header" src="/header-about-01.svg" alt="vague" />
+
 <div class="flex">
-  <div class="qui">
+  <div class="quoi">
     <div class="titre">
       <img class="zigzag" src="/About-01.jpg" alt="vague" />
     </div>
@@ -57,10 +59,7 @@
           <img src="/Icone_crayon-infini.gif" alt="crayon" />
         </div>
         <div class="titre-box">Graphiques</div>
-        <div class="box">
-          le dessin numérique ou classique, la photographie, la visualisation de données, la
-          broderie, le motion design, etc.
-        </div>
+        <div class="box" />
       </div>
 
       <div class="ptite-boite">
@@ -68,7 +67,7 @@
           <img src="/Vivants.gif" alt="vivants" />
         </div>
         <div class="titre-box">Vivants</div>
-        <div class="box">l’organisation de processus participatifs, de visites de site, etc.</div>
+        <div class="box" />
       </div>
     </div>
     <div class="petites-boites">
@@ -77,10 +76,7 @@
           <img src="/Analytique2.gif" alt="analytique" />
         </div>
         <div class="titre-box">Analytiques</div>
-        <div class="box">
-          la production d’analyses territoriales, le développement de modèles SIG, la production de
-          supports de présentation, etc.
-        </div>
+        <div class="box" />
       </div>
 
       <div class="ptite-boite">
@@ -88,13 +84,14 @@
           <img src="/Icone_maison-infini.gif" alt="maison" />
         </div>
         <div class="titre-box">En volume</div>
-        <div class="box">les maquettes, les expositions, etc.</div>
+        <div class="box" />
       </div>
     </div>
   </div>
 </div>
 
-<div class="fondcolor1">
+<div class="flex fondcolor1">
+  <img class="dessinpk" src="/page-about-01-01.svg" alt="vague" />
   <div class="pourquoi">
     <div class="titre">
       <img class="zigzag" src="/About-02.jpg" alt="vague" />
@@ -150,6 +147,10 @@
 
     <div class="texte-gras">C’est la naissance de Métis studio.</div>
   </div>
+
+  <div>
+    <img class="footer" src="/page-about-02-01.svg" alt="vague" />
+  </div>
 </div>
 
 <style>
@@ -180,14 +181,15 @@
 
   .titre-box {
     margin: 10px 0px;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 800;
+    color: #c96f44;
   }
 
   .petites-boites {
     display: flex;
     text-align: center;
-    padding: 16px 16px 16px 16px;
+    padding: 16px 16px 16px 60px;
     color: #4d6e56;
   }
 
@@ -211,27 +213,29 @@
 
   .quoi {
     margin-bottom: 80px;
-    margin-top: 100px;
+    margin-top: 20px;
     top: 0;
     right: 0;
     width: 50%;
   }
 
   .pourquoi {
-    margin-left: auto;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    width: 50%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .qui {
+    margin-right: auto;
+    padding-top: 10px;
     top: 0;
     right: 0;
     width: 50%;
   }
 
-  .qui {
-    margin-right: auto;
-    padding-top: 100px;
-    top: 0;
-    right: 0;
+  .quoi {
     width: 50%;
+    margin-top: 80px;
   }
 
   .image-gifs > img {
@@ -252,5 +256,22 @@
 
   .zigzag {
     width: 350px;
+  }
+
+  .dessinpk {
+    width: 50%;
+    margin-bottom: -35px;
+  }
+
+  .footer {
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -300px;
+  }
+
+  .header {
+    width: 100%;
+
+    margin-bottom: -700px;
   }
 </style>
