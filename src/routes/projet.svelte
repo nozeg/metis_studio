@@ -1,8 +1,13 @@
 <div class="flex">
   <div class="content">
-    <img src="/inv-img/Caravanserail-3-01.jpg" alt="INV2" />
-    <img src="/inv-img/inv-1-01-01.jpg" alt="INV1" />
-    <img src="/inv-img/Cremaillere.gif" alt="CRE" />
+    <img src="/inv-img/Amin.jpg" alt="Metis studio" />
+    <img src="/inv-img/Arche.jpg" alt="Metis studio" />
+    <img src="/inv-img/Cara-3.jpg" alt="Metis studio" />
+    <img src="/inv-img/Caravanserail-3-01.jpg" alt="Metis studio" />
+    <img src="/inv-img/Cara-2.jpg" alt="Metis studio" />
+    <img src="/inv-img/inv-1-01-01.jpg" alt="Metis studio" />
+    <img src="/inv-img/Cremaillere.gif" alt="Metis studio" />
+    <img src="/inv-img/Palais.jpg" alt="Metis studio" />
   </div>
   <div class="description">
     <div class="description-fixed">

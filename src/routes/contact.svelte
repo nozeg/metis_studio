@@ -1,9 +1,12 @@
 <div class="titre">Contactez-moi !</div>
-<img src="/Vague.gif" alt="vague" />
 
 <div class="texte bold">Métis studio</div>
 <div class="texte">+33 6 45 82 13 91</div>
 <div class="texte">nour@metis-studio.ch</div>
+
+<div class="texte">Vous pouvez aussi me retrouver ici :</div>
+
+<img class="zigzag" src="/Vague.gif" alt="vague" />
 
 <style>
   .titre {
@@ -23,5 +26,10 @@
   .bold {
     font-weight: 600;
     font-size: 16px;
+  }
+
+  .zigzag {
+    margin-top: 20px;
+    max-width: 20%;
   }
 </style>
