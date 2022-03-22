@@ -25,6 +25,7 @@
   .img-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -62,7 +63,7 @@
     transition-property: background-color;
     transition-duration: 150ms;
   }
-  .cover:hover {
+  a:hover .cover {
     background-color: var(--Colorprojet);
   }
 
