@@ -1,4 +1,4 @@
-import type Projet from '../types/projet';
+import type Projet from '$types/projet';
 
 export const loadProjet = async (name: string): Promise<Projet> => {
   const { default: projet } = await import(`../projets/${name}.ts`);

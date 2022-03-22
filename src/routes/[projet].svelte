@@ -1,16 +1,18 @@
 <script context="module" lang="ts">
   import type Projet from '$types/projet';
+  import { loadProjet } from '$lib/projets';
 
   // la fonction de chargement des projets
   export const load = async ({ params }) => {
     try {
-      const { default: projet } = await import(`../projets/${params.projet}.ts`);
+      const projet = await loadProjet(params.projet);
       return {
         props: {
           projet,
         },
       };
     } catch (error) {
+      console.log(error);
       return {
         status: 404,
         error: error.message,
