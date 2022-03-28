@@ -15,7 +15,32 @@
     image="/inv-img/Cremaillere.gif"
     colorbox="#37553e"
   />
-  <LienProjet titre="INV - Villes invisibles" lien="/projet" />
+  <LienProjet
+    titre="SAT - Ecole chantier"
+    lien="/projet"
+    image="/inv-img/Amin.jpg"
+    colorbox="#e6b399"
+  />
+
+  <LienProjet
+    titre="SAT - Ecole chantier"
+    lien="/projet"
+    image="/Icone_maison-infini.gif"
+    colorbox="#e6b399"
+  />
+
+  <LienProjet
+    titre="SAT - Ecole chantier"
+    lien="/projet"
+    image="/inv-img/CaraMockup.jpg"
+    colorbox="#a7802e"
+  />
+  <LienProjet
+    titre="SAT - Ecole chantier"
+    lien="/projet"
+    image="/Fleursbalcon-01-01.jpg"
+    colorbox="#4d6e56"
+  />
 </div>
 
 <style>

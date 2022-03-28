@@ -1,7 +1,13 @@
 <div class="flex">
   <div class="content">
-    <img src="/inv-img/inv-1-01-01.jpg" alt="INV1" />
-    <img src="/inv-img/Cremaillere.gif" alt="CRE" />
+    <img src="/inv-img/Amin.jpg" alt="Metis studio" />
+    <img src="/inv-img/Arche.jpg" alt="Metis studio" />
+    <img src="/inv-img/Cara-3.jpg" alt="Metis studio" />
+    <img src="/inv-img/Caravanserail-3-01.jpg" alt="Metis studio" />
+    <img src="/inv-img/Cara-2.jpg" alt="Metis studio" />
+    <img src="/inv-img/inv-1-01-01.jpg" alt="Metis studio" />
+    <img src="/inv-img/Cremaillere.gif" alt="Metis studio" />
+    <img src="/inv-img/Palais.jpg" alt="Metis studio" />
   </div>
   <div class="description">
     <div class="description-fixed">
@@ -20,10 +26,11 @@
 
   .content {
     flex-grow: 1;
+    justify-content: center;
   }
 
   .description {
-    width: 333px;
+    width: 400px;
     flex-shrink: 0;
   }
 
@@ -31,8 +38,8 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 333px;
-    padding: 100px 16px 16px 16px;
+    width: 400px;
+    padding: 100px 30px 16px 30px;
     text-align: justify;
     color: #4d6e56;
     font-size: 14px;
@@ -56,7 +63,6 @@
   img {
     margin: 0;
     padding: 0;
-    height: 100%;
     max-width: 100%;
     max-height: 100vh;
   }
