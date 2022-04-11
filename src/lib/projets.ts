@@ -1,11 +1,9 @@
 import type Projet from '$types/projet';
 
-export const loadProjet = async (name: string): Promise<Projet> => {
-  const { default: projet } = await import(`../projets/${name}.ts`);
-  return projet;
-};
-
-export const loadAllProjects = async (): Promise<Projet[]> => {
+interface ProjetLoad extends Projet {
+  slug: string;
+}
+export const loadAllProjects = async (): Promise<ProjetLoad[]> => {
   const projects = await Promise.all(
     Object.entries(import.meta.glob(`../projets/*.ts`)).map(async ([path, page]) => {
       const { default: projet } = await page();
@@ -19,3 +17,15 @@ export const loadAllProjects = async (): Promise<Projet[]> => {
   );
   return projects;
 };
+
+export const loadProjet = async (projectName: string): Promise<ProjetLoad | null> => {
+  console.log({ projectName });
+  const projects = await loadAllProjects();
+  const project = projects.find(({ lien }) => lien === projectName);
+  return project ?? null;
+};
+
+// export const loadProjet = async (name: string): Promise<Projet> => {
+//   const { default: projet } = await import(`../projets/${name}.ts`);
+//   return projet;
+// };

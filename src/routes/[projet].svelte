@@ -6,6 +6,11 @@
   export const load = async ({ params }) => {
     try {
       const projet = await loadProjet(params.projet);
+      if (projet === null) {
+        return {
+          status: 404,
+        };
+      }
       return {
         props: {
           projet,
