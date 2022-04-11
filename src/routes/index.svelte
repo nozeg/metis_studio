@@ -27,7 +27,7 @@
     colorbox="#c96f44"
   />
   <LienProjet
-    titre="Poubelle de table"
+    titre="IDE - Identités visuelles"
     lien="/projet"
     image="/inv-img/Cremaillere.gif"
     colorbox="#37553e"
@@ -35,14 +35,14 @@
   <LienProjet
     titre="SAT - Ecole chantier"
     lien="/projet"
-    image="/inv-img/Amin.jpg"
+    image="/Icone_maison-infini.gif"
     colorbox="#e6b399"
   />
 
   <LienProjet
-    titre="SAT - Ecole chantier"
+    titre="BEL - Il était une fois Bellegarde-sur-Valserine"
     lien="/projet"
-    image="/Icone_maison-infini.gif"
+    image="/bel-images/Hotel-de-ville-anime.gif"
     colorbox="#e6b399"
   />
 
@@ -53,10 +53,17 @@
     colorbox="#a7802e"
   />
   <LienProjet
-    titre="SAT - Ecole chantier"
+    titre="AQU - Aquarelles du territoire"
+    lien="/aquarelle"
+    image="/aqu-images/Montagne_2jpg.jpg"
+    colorbox="#4d6e56"
+  />
+
+  <LienProjet
+    titre="BAL - Sur nos balcons, la biodiversité"
     lien="/projet"
     image="/Fleursbalcon-01-01.jpg"
-    colorbox="#4d6e56"
+    colorbox="#c96f44"
   />
 
   {#each projects as project}
