@@ -1,5 +1,6 @@
 <script>
   import 'normalize.css/normalize.css';
+  import '../global.css';
   import Nav from '../components/Nav.svelte';
 </script>
 
