@@ -30,6 +30,7 @@
   },
   "type": "module",
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "svelte-hamburgers": "^4.0.1"
   }
 }
