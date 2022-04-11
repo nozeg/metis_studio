@@ -258,10 +258,6 @@
     margin-top: 80px;
   }
 
-  .zigzag {
-    width: 350px;
-  }
-
   .dessinpk {
     width: 50%;
     margin-bottom: -35px;

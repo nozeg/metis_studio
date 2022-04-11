@@ -10,32 +10,40 @@
   });
 </script>
 
-<div class="tout">
-  <div class="titre">
-    <TitreOrange backgroundColor="#fff">Contactez-moi !</TitreOrange>
-  </div>
+<div class="container">
+  <div class="tout">
+    <div class="titre">
+      <TitreOrange backgroundColor="#fff">Contactez-moi !</TitreOrange>
+    </div>
 
-  <div class="texte bold">Métis studio</div>
-  <div class="texte">
-    {#if email !== hashedEmail}
-      <a href={`mailto:${email}`}>{email}</a>
-    {:else}
-      <a href="#a">{' '}</a>
-    {/if}
-  </div>
+    <div class="texte bold">Métis studio</div>
+    <div class="texte">
+      {#if email !== hashedEmail}
+        <a href={`mailto:${email}`}>{email}</a>
+      {:else}
+        <a href="#a">{' '}</a>
+      {/if}
+    </div>
 
-  <div class="texte">Vous pouvez aussi me retrouver ici :</div>
+    <div class="texte">Vous pouvez aussi me retrouver ici :</div>
+  </div>
 </div>
+
 <img class="zigzag" src="/Vague.gif" alt="vague" />
 
 <img class="zigzag" src="/Sparkle.gif" alt="vague" />
 
 <style>
+  .container {
+    display: flex;
+  }
   .tout {
+    flex-grow: 0;
+    flex-shrink: 0;
     background-color: #fcf3f0;
     padding: 10px;
+    padding-right: 40px;
     margin-top: 100px;
-    width: 40%;
   }
   .titre {
     font-weight: 800;
