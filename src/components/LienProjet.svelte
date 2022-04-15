@@ -3,46 +3,71 @@
   export let lien;
   export let image;
   export let colorbox;
-
-  const imageLien = `url(${image})`;
-  // si image vaut "toto", imageLien vaut "url(toto)"
 </script>
 
-<a class="projetINV" href={lien} style="--bgImage:{imageLien};--Colorprojet:{colorbox}">
-  <span>{titre}</span>
+<a class="projetINV" href={lien} style="--Colorprojet:{colorbox}">
+  <span class="img-container">
+    <img src={image} />
+  </span>
+  <span class="cover" />
+  <span class="title">{titre}</span>
 </a>
 
 <style>
   .projetINV {
+    position: relative;
     width: 333px;
     height: 333px;
-    background-image: var(--bgImage);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    transition-property: background-color;
-    transition-duration: 150ms;
-    display: flex;
-    justify-content: center;
-
     text-decoration: none;
     margin: 20px;
   }
 
-  .projetINV span {
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+  }
+
+  img {
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0px auto;
+  }
+
+  .title {
     color: white;
     opacity: 0;
     align-self: flex-end;
-  }
-
-  .projetINV:hover {
-    background-color: var(--Colorprojet);
-    background-image: none;
-    padding: 30px;
-  }
-
-  .projetINV:hover span {
-    opacity: 1;
     font-weight: 800;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    transition-property: opacity;
+    transition-duration: 150ms;
+  }
+
+  .cover {
+    display: block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    transition-property: background-color;
+    transition-duration: 150ms;
+  }
+  a:hover .cover {
+    background-color: var(--Colorprojet);
+  }
+
+  a:hover .title {
+    opacity: 1;
   }
 </style>

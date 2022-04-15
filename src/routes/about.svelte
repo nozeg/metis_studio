@@ -1,9 +1,13 @@
+<script>
+  import TitreOrange from '$components/TitreOrange.svelte';
+</script>
+
 <img class="header" src="/header-about-01.svg" alt="vague" />
 
 <div class="flex">
   <div class="quoi">
     <div class="titre">
-      <img class="zigzag" src="/About-01.jpg" alt="vague" />
+      <TitreOrange>Métis studio, qu'est-ce que c'est ?</TitreOrange>
     </div>
 
     <div class="texte">
@@ -94,7 +98,7 @@
   <img class="dessinpk" src="/page-about-01-01.svg" alt="vague" />
   <div class="pourquoi">
     <div class="titre">
-      <img class="zigzag" src="/About-02.jpg" alt="vague" />
+      <TitreOrange backgroundColor="#fff">Pourquoi Métis studio ?</TitreOrange>
     </div>
     <div class="texte">
       Le métis est un tissu très résistant constitué d’un mélange de coton et de lin. Le <span
@@ -112,7 +116,7 @@
 <div class="fondcolor2">
   <div class="qui">
     <div class="titre">
-      <img class="zigzag" src="/About-03.jpg" alt="vague" />
+      <TitreOrange>Qui est derrière Métis studio ?</TitreOrange>
     </div>
     <div class="texte">
       Nour Zeghib est une <span class="grassouillet">architecte-urbaniste</span> française diplômée d’Etat
@@ -252,10 +256,6 @@
   .schemas {
     width: 50%;
     margin-top: 80px;
-  }
-
-  .zigzag {
-    width: 350px;
   }
 
   .dessinpk {

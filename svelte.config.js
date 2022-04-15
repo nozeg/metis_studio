@@ -1,3 +1,4 @@
+import path from 'path';
 import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 
@@ -10,9 +11,16 @@ const config = {
   kit: {
     adapter: adapter(),
     prerender: {
-      default: true
-    }
-  }
+      default: true,
+    },
+    vite: {
+      resolve: {
+        alias: {
+          $components: path.resolve('./src/components'),
+        },
+      },
+    },
+  },
 };
 
 export default config;

@@ -1,5 +1,22 @@
-<script>
+<script context="module" lang="ts">
+  import { loadAllProjects } from '$lib/projets';
+
+  // la fonction de chargement des projets
+  export const load = async ({ params }) => {
+    const projects = await loadAllProjects();
+    return {
+      props: {
+        projects,
+      },
+    };
+  };
+</script>
+
+<script lang="ts">
+  import type Projet from '$types/projet';
+
   import LienProjet from '../components/LienProjet.svelte';
+  export let projects: Projet[];
 </script>
 
 <div class="listeprojets">
@@ -10,7 +27,7 @@
     colorbox="#c96f44"
   />
   <LienProjet
-    titre="Poubelle de table"
+    titre="IDE - Identités visuelles"
     lien="/projet"
     image="/inv-img/Cremaillere.gif"
     colorbox="#37553e"
@@ -18,14 +35,14 @@
   <LienProjet
     titre="SAT - Ecole chantier"
     lien="/projet"
-    image="/inv-img/Amin.jpg"
+    image="/Icone_maison-infini.gif"
     colorbox="#e6b399"
   />
 
   <LienProjet
-    titre="SAT - Ecole chantier"
+    titre="BEL - Il était une fois Bellegarde-sur-Valserine"
     lien="/projet"
-    image="/Icone_maison-infini.gif"
+    image="/bel-images/Hotel-de-ville-anime.gif"
     colorbox="#e6b399"
   />
 
@@ -36,11 +53,27 @@
     colorbox="#a7802e"
   />
   <LienProjet
-    titre="SAT - Ecole chantier"
-    lien="/projet"
-    image="/Fleursbalcon-01-01.jpg"
+    titre="AQU - Aquarelles du territoire"
+    lien="/aquarelle"
+    image="/aqu-images/Montagne_2jpg.jpg"
     colorbox="#4d6e56"
   />
+
+  <LienProjet
+    titre="BAL - Sur nos balcons, la biodiversité"
+    lien="/projet"
+    image="/Fleursbalcon-01-01.jpg"
+    colorbox="#c96f44"
+  />
+
+  {#each projects as project}
+    <LienProjet
+      titre={project.titre}
+      lien={`/${project.lien}`}
+      colorbox={project.color}
+      image={project.thumbnail}
+    />
+  {/each}
 </div>
 
 <style>
