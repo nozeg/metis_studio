@@ -2,8 +2,6 @@
   import TitreOrange from '$components/TitreOrange.svelte';
 </script>
 
-<img class="header" src="/header-about-01.svg" alt="vague" />
-
 <div class="flex">
   <div class="quoi">
     <div class="titre">
@@ -28,74 +26,26 @@
       C’est <span class="grassouillet">mettre au service</span> de la narration une pluralité d’outils
       adaptés à chaque projet :
     </div>
-    <div class="petites-boites">
-      <div class="ptite-boite">
-        <div class="titre-box">Graphiques</div>
-        <div class="box">
-          le dessin numérique ou classique, la photographie, la visualisation de données, la
-          broderie, le motion design, etc.
-        </div>
-      </div>
-
-      <div class="ptite-boite">
-        <div class="titre-box">Vivants</div>
-        <div class="box">l’organisation de processus participatifs, de visites de site, etc.</div>
-      </div>
-
-      <div class="ptite-boite">
-        <div class="titre-box">Analytiques</div>
-        <div class="box">
-          la production d’analyses territoriales, le développement de modèles SIG, la production de
-          supports de présentation, etc.
-        </div>
-      </div>
-
-      <div class="ptite-boite">
-        <div class="titre-box">En volume</div>
-        <div class="box">les maquettes, les expositions, etc.</div>
-      </div>
-    </div>
   </div>
-  <div class="schemas">
-    <div class="petites-boites">
-      <div class="ptite-boite">
-        <div class="image-gifs">
-          <img src="/Icone_crayon-infini.gif" alt="crayon" />
-        </div>
-        <div class="titre-box">Graphiques</div>
-        <div class="box" />
-      </div>
+  <img class="dessinpk" src="/about/About-quoi.svg" alt="mestis-studio" />
+</div>
 
-      <div class="ptite-boite">
-        <div class="image-gifs">
-          <img src="/Vivants.gif" alt="vivants" />
-        </div>
-        <div class="titre-box">Vivants</div>
-        <div class="box" />
-      </div>
+<div class="flex fondcolor1">
+  <img class="dessinpk" src="/about/About-service.svg" alt="mestis-studio" />
+
+  <div class="service">
+    <div class="titre">
+      <TitreOrange>Métis studio, quels services ?</TitreOrange>
     </div>
-    <div class="petites-boites">
-      <div class="ptite-boite">
-        <div class="image-gifs">
-          <img src="/Analytique2.gif" alt="analytique" />
-        </div>
-        <div class="titre-box">Analytiques</div>
-        <div class="box" />
-      </div>
-
-      <div class="ptite-boite">
-        <div class="image-gifs">
-          <img src="/Icone_maison-infini.gif" alt="maison" />
-        </div>
-        <div class="titre-box">En volume</div>
-        <div class="box" />
-      </div>
+    <div class="texte">
+      Médiation en urbanisme Analyses territoriales Illustration Motion design Organisation de
+      processus participatifs Prints
     </div>
   </div>
 </div>
 
 <div class="flex fondcolor1">
-  <img class="dessinpk" src="/page-about-01-01.svg" alt="vague" />
+  <img class="dessinpk" src="/about/About-pourquoi-01.jpg" alt="mestis-studio" />
   <div class="pourquoi">
     <div class="titre">
       <TitreOrange backgroundColor="#fff">Pourquoi Métis studio ?</TitreOrange>
@@ -113,47 +63,46 @@
   </div>
 </div>
 
-<div class="fondcolor2">
-  <div class="qui">
-    <div class="titre">
-      <TitreOrange>Qui est derrière Métis studio ?</TitreOrange>
-    </div>
-    <div class="texte">
-      Nour Zeghib est une <span class="grassouillet">architecte-urbaniste</span> française diplômée d’Etat
-      et basée à Genève, Suisse depuis 4 ans.
-    </div>
-
-    <div class="texte">
-      Cet environnement très particulier est composé d’une <span class="grassouillet"
-        >pluralité de paysages</span
-      >
-      imbriqués comme des pièces de puzzle : le lac Léman, le Rhône, les montagnes et la campagne, la
-      ville. Autant de morceaux de territoire en pleine transformation et un terreau fertile pour développer
-      l’<span class="grassouillet">imagination</span>
-      et la
-      <span class="grassouillet">créativité</span>.
-    </div>
-
-    <div class="texte">
-      De nature curieuse, Nour a développé à côté de ses activités professionnelles des compétences
-      pour l’<span class="grassouillet">illustration</span>, la
-      <span class="grassouillet">photographie</span>
-      et les <span class="grassouillet">techniques d’impression</span> (sérigraphie, risographie).
-    </div>
-
-    <div class="texte">
-      Après un parcours dans plusieurs bureaux genevois d’urbanisme et plusieurs expériences de
-      <span class="grassouillet">processus participatifs</span>, Nour souhaite implémenter à sa
-      pratique de l’urbanisme <span class="grassouillet">différentes manières sensibles</span> de
-      <span class="grassouillet">représenter</span>
-      et de <span class="grassouillet">raconter le territoire</span>.
-    </div>
-
-    <div class="texte-gras">C’est la naissance de Métis studio.</div>
-  </div>
-
+<div class="flex fondcolor2">
   <div>
-    <img class="footer" src="/page-about-02-01.svg" alt="vague" />
+    <div class="qui">
+      <div class="titre">
+        <TitreOrange>Qui est derrière Métis studio ?</TitreOrange>
+      </div>
+      <div class="texte">
+        Nour Zeghib est une <span class="grassouillet">architecte-urbaniste</span> française diplômée
+        d’Etat et basée à Genève, Suisse depuis 4 ans.
+      </div>
+
+      <div class="texte">
+        Cet environnement très particulier est composé d’une <span class="grassouillet"
+          >pluralité de paysages</span
+        >
+        imbriqués comme des pièces de puzzle : le lac Léman, le Rhône, les montagnes et la campagne,
+        la ville. Autant de morceaux de territoire en pleine transformation et un terreau fertile pour
+        développer l’<span class="grassouillet">imagination</span>
+        et la
+        <span class="grassouillet">créativité</span>.
+      </div>
+
+      <div class="texte">
+        De nature curieuse, Nour a développé à côté de ses activités professionnelles des
+        compétences pour l’<span class="grassouillet">illustration</span>, la
+        <span class="grassouillet">photographie</span>
+        et les <span class="grassouillet">techniques d’impression</span> (sérigraphie, risographie).
+      </div>
+
+      <div class="texte">
+        Après un parcours dans plusieurs bureaux genevois d’urbanisme et plusieurs expériences de
+        <span class="grassouillet">processus participatifs</span>, Nour souhaite implémenter à sa
+        pratique de l’urbanisme <span class="grassouillet">différentes manières sensibles</span> de
+        <span class="grassouillet">représenter</span>
+        et de <span class="grassouillet">raconter le territoire</span>.
+      </div>
+
+      <div class="texte-gras">C’est la naissance de Métis studio.</div>
+    </div>
+    <img class="dessinpk" src="/about/About-qui.svg" alt="mestis-studio" />
   </div>
 </div>
 
@@ -216,25 +165,27 @@
   }
 
   .quoi {
-    margin-bottom: 80px;
-    margin-top: 20px;
-    top: 0;
-    right: 0;
-    width: 50%;
+    margin-top: 2%;
+    position: absolute;
+    margin-bottom: 150%;
+    max-width: 50%;
   }
-
+  .service {
+    margin-top: 2%;
+    position: absolute;
+    margin-bottom: 100px;
+    margin-right: 55%;
+  }
   .pourquoi {
-    width: 50%;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 2%;
+    position: absolute;
+    margin-left: 55%;
   }
 
   .qui {
-    margin-right: auto;
-    padding-top: 10px;
-    top: 0;
-    right: 0;
-    width: 50%;
+    margin-top: 2%;
+    position: absolute;
+    max-width: 40%;
   }
 
   .quoi {
@@ -250,7 +201,9 @@
   }
 
   .fondcolor1 {
-    background-color: #fcf3f0;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .schemas {
@@ -259,19 +212,6 @@
   }
 
   .dessinpk {
-    width: 50%;
-    margin-bottom: -35px;
-  }
-
-  .footer {
-    width: 50%;
-    margin-left: 50%;
-    margin-top: -300px;
-  }
-
-  .header {
-    width: 100%;
-
-    margin-bottom: -700px;
+    max-width: 100%;
   }
 </style>
