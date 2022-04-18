@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-afed521c.js",
+    "file": "start-605e98ae.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -63,7 +63,7 @@
       "_vendor-289dee53.js"
     ],
     "css": [
-      "assets/pages/projet.svelte-7a1f506d.css"
+      "assets/pages/aquarelle.svelte-d5377a37.css"
     ]
   },
   "src/routes/boutique.svelte": {
@@ -97,11 +97,11 @@
       "_vendor-289dee53.js"
     ],
     "css": [
-      "assets/pages/projet.svelte-7a1f506d.css"
+      "assets/pages/aquarelle.svelte-d5377a37.css"
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-e50ffeda.js",
+    "file": "pages/about.svelte-b6caca7d.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -110,7 +110,7 @@
       "_TitreOrange-8036a951.js"
     ],
     "css": [
-      "assets/pages/about.svelte-9acf5642.css"
+      "assets/pages/about.svelte-2cbedee7.css"
     ]
   },
   "src/routes/[projet].svelte": {
