@@ -10,65 +10,57 @@
   });
 </script>
 
-<div class="container">
-  <div class="tout">
+<div class="flex milieu">
+  <div class="boxtexte">
     <div class="titre">
-      <TitreOrange backgroundColor="#fff">Contactez-moi !</TitreOrange>
+      <TitreOrange backgroundColor="#fbf2ef">Contactez-moi !</TitreOrange>
     </div>
-
     <div class="texte bold">Métis studio</div>
-    <div class="texte">
-      {#if email !== hashedEmail}
-        <a href={`mailto:${email}`}>{email}</a>
-      {:else}
-        <a href="#a">{' '}</a>
-      {/if}
-    </div>
-
-    <div class="texte">Vous pouvez aussi me retrouver ici :</div>
   </div>
+
+  <div class="texte2">
+    Pour toute demande, information, ou collaboration, n'hésitez pas à écrire à :
+  </div>
+  <div class="texte2">
+    {#if email !== hashedEmail}
+      <a href={`mailto:${email}`}>{email}</a>
+    {:else}
+      <a href="#a">{' '}</a>
+    {/if}
+  </div>
+  <img class="flex dessin2" src="/contact/lettre.svg" alt="Métis Studio" />
 </div>
 
-<img class="zigzag" src="/Vague.gif" alt="vague" />
-
-<img class="zigzag" src="/Sparkle.gif" alt="vague" />
-
 <style>
-  .container {
-    display: flex;
+  .milieu {
+    flex-grow: 1;
   }
-  .tout {
-    flex-grow: 0;
-    flex-shrink: 0;
-    background-color: #fcf3f0;
-    padding: 10px;
-    padding-right: 40px;
-    margin-top: 100px;
-  }
-  .titre {
-    font-weight: 800;
-    font-size: 18px;
-    margin-bottom: 30px;
-    color: #c96f44;
+  .boxtexte {
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+    position: relative;
   }
 
-  .texte {
-    font-weight: 100px;
-    font-size: 14px;
-    margin-bottom: 10px;
+  .dessin2 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 55%;
+    margin-top: -15%;
+    padding: 20px;
   }
 
   .bold {
     font-weight: 600;
     font-size: 16px;
+    margin-bottom: 16px;
   }
 
-  .zigzag {
-    margin-top: 20px;
-    max-width: 20%;
-  }
-
-  a::before {
-    content: '\200b';
+  .texte2 {
+    font-size: 14px;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 10%;
   }
 </style>
