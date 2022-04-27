@@ -13,7 +13,7 @@
       Quelques extraits d'un cahier de croquis pour tenter de capter les changements de saison dans des
       paysages où l'homme n'est pas. La montagne est un formidable révélateur du temps qui passe, elle
       se fait le miroir de la lumière d'été ou d'hiver, des plantes qui se succèdent au cours de l'année...
-      <div class="tags">outil de médiation ; faune ; dessins à la main ; dépliant ; réalisé</div>
+      <div class="tags">carnet de croquis ; aquarelle ; dessins à la main ; réalisé</div>
     </div>
   </div>
 </div>

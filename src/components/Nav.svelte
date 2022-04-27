@@ -15,11 +15,10 @@
   </a>
 
   <a class="links" href="/"> projets </a>
-  <a class="links" href="/projet"> outils </a>
+
   <a class="links" href="/about"> à propos </a>
   <a class="links" href="/contact"> contact </a>
-
-  <a class="links" href="/boutique"> boutique </a>
+  <a class="links" href="/outils"> outils </a>
 
   <div class="reseaux">
     <a href="https://www.instagram.com/metis.studio.ch/" target="_blank"> <LogoInsta /></a>

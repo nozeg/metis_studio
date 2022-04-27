@@ -37,9 +37,10 @@
     <div class="titre">
       <TitreOrange>Métis studio, quels services ?</TitreOrange>
     </div>
-    <div class="texte">
-      Médiation en urbanisme Analyses territoriales Illustration Motion design Organisation de
-      processus participatifs Prints
+    <div class="texte grossepolice">
+      <span class="grassouillet">Médiation en urbanisme</span> + Analyses territoriales +
+      <span class="grassouillet">Illustration</span> + Motion design +
+      <span class="grassouillet">Organisation de processus participatifs</span> + Prints
     </div>
   </div>
 </div>
@@ -100,7 +101,7 @@
         et de <span class="grassouillet">raconter le territoire</span>.
       </div>
 
-      <div class="texte-gras">C’est la naissance de Métis studio.</div>
+      <div class="texte"><span class="grassouillet">C’est la naissance de Métis studio.</span></div>
     </div>
     <img class="dessinpk" src="/about/About-qui.svg" alt="mestis-studio" />
   </div>
@@ -130,34 +131,6 @@
     justify-content: baseline;
     font-weight: 800;
     color: #c96f44;
-  }
-
-  .titre-box {
-    margin: 10px 0px;
-    font-size: 15px;
-    font-weight: 800;
-    color: #c96f44;
-  }
-
-  .petites-boites {
-    display: flex;
-    text-align: center;
-    padding: 16px 16px 16px 16px;
-    color: #4d6e56;
-  }
-
-  .ptite-boite {
-    top: 20px;
-    bottom: 0;
-    left: 0;
-    width: 200px;
-  }
-
-  .box {
-    margin: 10px;
-    font-size: 12px;
-    text-align: left;
-    justify-content: space-between;
   }
 
   .grassouillet {
@@ -193,25 +166,17 @@
     margin-top: 80px;
   }
 
-  .image-gifs > img {
-    margin: 0;
-    height: 100%;
-    max-width: 100%;
-    max-height: 100vh;
-  }
-
   .fondcolor1 {
     position: relative;
     margin-top: 40px;
     margin-bottom: 40px;
   }
 
-  .schemas {
-    width: 50%;
-    margin-top: 80px;
-  }
-
   .dessinpk {
     max-width: 100%;
+  }
+
+  .grossepolice {
+    font-size: 18px;
   }
 </style>
