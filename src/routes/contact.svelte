@@ -21,13 +21,7 @@
   <div class="texte2">
     Pour toute demande, information, ou collaboration, n'hésitez pas à écrire à :
   </div>
-  <div class="texte2">
-    {#if email !== hashedEmail}
-      <a href={`mailto:${email}`}>{email}</a>
-    {:else}
-      <a href="#a">{' '}</a>
-    {/if}
-  </div>
+  <div class="texte2">nour.metis.studio@gmail.com</div>
   <img class="flex dessin2" src="/contact/lettre.svg" alt="Métis Studio" />
 </div>
 
