@@ -21,7 +21,10 @@
   <div class="texte2">
     Pour toute demande, information, ou collaboration, n'hésitez pas à écrire à :
   </div>
-  <div class="texte2">nour.metis.studio@gmail.com</div>
+  <div>
+    <a class="texte2" href="mailto:nour.metis.studio@gmail.com">nour.metis.studio@gmail.com</a>
+  </div>
+
   <img class="flex dessin2" src="/contact/lettre.svg" alt="Métis Studio" />
 </div>
 

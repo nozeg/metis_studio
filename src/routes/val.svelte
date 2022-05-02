@@ -20,7 +20,7 @@
         grands, les possibilités sont presque infinies !
 
         <div>
-          L'objectif de cette cartographie est de proposer des parcours aux premeneurs grâce à un
+          L'objectif de cette cartographie est de proposer des parcours aux promeneurs grâce à un
           dépliant ou une carte interactive (en cours de développement).
         </div>
       </div>
