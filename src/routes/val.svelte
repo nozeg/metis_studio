@@ -17,7 +17,7 @@
         deviner la puissance de la rivière sans la voir grâce à ses deux oreilles, là on peut sentir
         en été l’odeur des épicéas fraîchement coupés, etc. Cette carte se veut évolutive et
         collaborative, pourquoi pas imaginer une carte par saison, une carte pour les petits ou les
-        grands, les possibilités sont presque infinies !
+        grands, les possibilités sont presque infinies !
 
         <div>
           L'objectif de cette cartographie est de proposer des parcours aux promeneurs grâce à un
