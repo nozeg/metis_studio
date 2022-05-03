@@ -21,8 +21,9 @@
         </div>
 
         <div class="texte2">
-          Suivez les actualités d'Ecole Chantier ici : <a href="www.ecolechantier.ch"
-            >www.ecolechantier.ch</a
+          Suivez les actualités d'Ecole Chantier ici : <a
+            href="https://www.ecolechantier.ch"
+            target="_blank">www.ecolechantier.ch</a
           >
         </div>
       </div>
