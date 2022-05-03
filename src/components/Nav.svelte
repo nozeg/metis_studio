@@ -2,6 +2,7 @@
   import LogoGif from './LogoGIF.svelte';
   import LogoTexte from './LogoTexte.svelte';
   import LogoInsta from './LogoInsta.svelte';
+  import LogoL from './LogoL.svelte';
 </script>
 
 <nav>
@@ -22,6 +23,10 @@
 
   <div class="reseaux">
     <a href="https://www.instagram.com/metis.studio.ch/" target="_blank"> <LogoInsta /></a>
+  </div>
+
+  <div class="reseaux2">
+    <a href="https://www.linkedin.com/company/m%C3%A9tis-studio/" target="_blank"> <LogoL /></a>
   </div>
 </nav>
 
@@ -57,6 +62,14 @@
     position: fixed;
     bottom: 5px;
     left: 30px;
+    width: 100%;
+    height: 40px;
+  }
+
+  .reseaux2 {
+    position: fixed;
+    bottom: 12px;
+    left: 60px;
     width: 100%;
     height: 40px;
   }
