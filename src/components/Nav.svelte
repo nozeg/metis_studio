@@ -7,9 +7,6 @@
 </script>
 
 <nav>
-  <div>
-    <img src="/nav/Imagelogo.svg" alt="img" />
-  </div>
   <a class="logo-texte-container" href="/">
     <LogoTexte />
   </a>
@@ -44,7 +41,7 @@
   }
 
   .logo-texte-container {
-    margin: -50px 0px 56px 0px;
+    margin: 50px 0px 56px 0px;
     display: flex;
     justify-content: center;
     font-weight: 1000;
