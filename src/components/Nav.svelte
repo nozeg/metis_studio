@@ -1,5 +1,4 @@
 <script>
-  import LogoGif from './LogoGIF.svelte';
   import LogoTexte from './LogoTexte.svelte';
   import LogoInsta from './LogoInsta.svelte';
   import LogoL from './LogoL.svelte';
