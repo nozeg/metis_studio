@@ -112,7 +112,7 @@
     display: flex;
   }
   .titre {
-    color: #c96f44;
+    color: #576775;
     font-size: 18px;
     font-weight: 800;
     margin: 30px;
@@ -121,7 +121,7 @@
     margin: 30px;
     font-size: 15px;
     justify-content: baseline;
-    color: #4d6e56;
+    color: #576775;
     text-align: justify;
   }
 
@@ -130,7 +130,7 @@
     font-size: 16px;
     justify-content: baseline;
     font-weight: 800;
-    color: #c96f44;
+    color: #576775;
   }
 
   .grassouillet {

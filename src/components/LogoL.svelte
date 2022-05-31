@@ -6,13 +6,13 @@
   ><defs
     ><style>
       .a {
-        fill: #4c6c55;
+        fill: #788ea2;
       }
       .b {
         fill: #fff;
       }
       .c {
-        fill: #0b6ca6;
+        fill: #788ea2;
       }
     </style></defs
   ><title>Logo-L</title><circle class="a" cx="14.4589" cy="14.4453" r="14.5" /><path

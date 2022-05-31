@@ -3,13 +3,12 @@
   import LogoTexte from './LogoTexte.svelte';
   import LogoInsta from './LogoInsta.svelte';
   import LogoL from './LogoL.svelte';
+  import Imagebas from './Imagebas.svelte';
 </script>
 
 <nav>
-  <div class="logo-gif-container">
-    <a href="/">
-      <LogoGif />
-    </a>
+  <div>
+    <img src="/nav/Imagelogo.svg" alt="img" />
   </div>
   <a class="logo-texte-container" href="/">
     <LogoTexte />
@@ -20,6 +19,10 @@
   <a class="links" href="/about"> à propos </a>
   <a class="links" href="/contact"> contact </a>
   <a class="links" href="/outils"> outils </a>
+
+  <div class="imagebas">
+    <a href="https://www.linkedin.com/company/m%C3%A9tis-studio/" target="_blank"> <Imagebas /></a>
+  </div>
 
   <div class="reseaux">
     <a href="https://www.instagram.com/metis.studio.ch/" target="_blank"> <LogoInsta /></a>
@@ -37,25 +40,22 @@
   }
 
   .logo-gif-container {
-    margin: 16px 16px;
+    margin: 16px 16px 16px;
   }
 
   .logo-texte-container {
     margin: -50px 0px 56px 0px;
     display: flex;
     justify-content: center;
-    color: #37553e;
-    font-weight: 800;
-    padding: 0px 50px;
+    font-weight: 1000;
   }
 
   .links {
     display: block;
     margin-left: 30px;
     text-decoration: none;
-    color: #37553e;
-    font-weight: 800;
-    font-size: small;
+    color: #576775;
+    font-size: 18;
   }
 
   .reseaux {
@@ -72,5 +72,11 @@
     left: 60px;
     width: 100%;
     height: 40px;
+  }
+
+  .imagebas {
+    position: fixed;
+    bottom: 8%;
+    left: -8%;
   }
 </style>

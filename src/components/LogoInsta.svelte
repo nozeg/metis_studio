@@ -2,7 +2,7 @@
   ><defs
     ><style>
       .a {
-        fill: #4c6c55;
+        fill: #788ea2;
       }
       .b {
         fill: #fff;
