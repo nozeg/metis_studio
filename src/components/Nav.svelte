@@ -39,11 +39,11 @@
   }
 
   .logo-gif-container {
-    margin: -30px -6px 40px;
+    margin: -0px -6px 40px;
   }
 
   .logo-texte-container {
-    margin: 50px 0px 0px 0px;
+    margin: 00px 0px 0px 0px;
     display: flex;
     justify-content: center;
     font-weight: 1000;
