@@ -11,6 +11,8 @@
     <LogoTexte />
   </a>
 
+  <img class="logo-gif-container" src="/nav/Texte.svg" alt="txt" />
+
   <a class="links" href="/"> projets </a>
 
   <a class="links" href="/about"> à propos </a>
@@ -37,11 +39,11 @@
   }
 
   .logo-gif-container {
-    margin: 16px 16px 16px;
+    margin: -30px -6px 40px;
   }
 
   .logo-texte-container {
-    margin: 50px 0px 56px 0px;
+    margin: 50px 0px 0px 0px;
     display: flex;
     justify-content: center;
     font-weight: 1000;
