@@ -40,7 +40,7 @@
     width: 400px;
     padding: 100px 30px 16px 30px;
     text-align: justify;
-    color: #576775;
+    color: #0c795c;
     font-size: 14px;
     background-color: white;
   }
@@ -54,7 +54,7 @@
   .tags {
     font-size: 12px;
     font-weight: 700;
-    color: #a7802e;
+    color: #19a880;
     margin-top: 50px;
     margin-bottom: 500px;
   }
