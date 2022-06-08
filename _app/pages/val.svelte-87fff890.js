@@ -1,0 +1,21 @@
+import{S as R,i as U,s as X,e as a,k as y,t as x,c as r,a as u,m as V,d as n,h as E,T as C,b as s,g as Y,H as e,I as W}from"../chunks/vendor-e9163b00.js";function Z(Q){let i,l,c,w,D,d,z,M,p,B,L,g,t,v,F,j,m,A,G,h,S,I,T,k,_,H;return{c(){i=a("div"),l=a("div"),c=a("img"),D=y(),d=a("img"),M=y(),p=a("img"),L=y(),g=a("div"),t=a("div"),v=a("img"),j=y(),m=a("div"),A=x("VAL - Au fil de la Valserine, une cartographie sensible"),G=y(),h=a("div"),S=x(`Et si on d\xE9couvrait autrement la vall\xE9e de la Valserine ? C\u2019est la question \xE0 l\u2019origine de
+        cette cartographie qui prend le parti d\u2019utiliser ses 5 sens pour essayer de sensibiliser le
+        promeneur \xE0 son environnement, au-del\xE0 de ce qu\u2019il peut voir. Les paysages de la Valserine
+        sont divers et regorgent d\u2019une multitude de richesses pour tous les sens. Ici, on peut
+        deviner la puissance de la rivi\xE8re sans la voir gr\xE2ce \xE0 ses deux oreilles, l\xE0 on peut sentir
+        en \xE9t\xE9 l\u2019odeur des \xE9pic\xE9as fra\xEEchement coup\xE9s, etc. Cette carte se veut \xE9volutive et
+        collaborative, pourquoi pas imaginer une carte par saison, une carte pour les petits ou les
+        grands, les possibilit\xE9s sont presque infinies !
+
+        `),I=a("div"),T=x(`L'objectif de cette cartographie est de proposer des parcours aux promeneurs gr\xE2ce \xE0 un
+          d\xE9pliant ou une carte interactive (en cours de d\xE9veloppement).`),k=y(),_=a("div"),H=x("outil de m\xE9diation ; valserine ; cartographie ; paysages ; d\xE9pliant ; en cours"),this.h()},l(b){i=r(b,"DIV",{class:!0});var f=u(i);l=r(f,"DIV",{class:!0});var q=u(l);c=r(q,"IMG",{src:!0,alt:!0,class:!0}),D=V(q),d=r(q,"IMG",{src:!0,alt:!0,class:!0}),M=V(q),p=r(q,"IMG",{src:!0,alt:!0,class:!0}),q.forEach(n),L=V(f),g=r(f,"DIV",{class:!0});var J=u(g);t=r(J,"DIV",{class:!0});var o=u(t);v=r(o,"IMG",{class:!0,src:!0,alt:!0}),j=V(o),m=r(o,"DIV",{class:!0});var K=u(m);A=E(K,"VAL - Au fil de la Valserine, une cartographie sensible"),K.forEach(n),G=V(o),h=r(o,"DIV",{});var P=u(h);S=E(P,`Et si on d\xE9couvrait autrement la vall\xE9e de la Valserine ? C\u2019est la question \xE0 l\u2019origine de
+        cette cartographie qui prend le parti d\u2019utiliser ses 5 sens pour essayer de sensibiliser le
+        promeneur \xE0 son environnement, au-del\xE0 de ce qu\u2019il peut voir. Les paysages de la Valserine
+        sont divers et regorgent d\u2019une multitude de richesses pour tous les sens. Ici, on peut
+        deviner la puissance de la rivi\xE8re sans la voir gr\xE2ce \xE0 ses deux oreilles, l\xE0 on peut sentir
+        en \xE9t\xE9 l\u2019odeur des \xE9pic\xE9as fra\xEEchement coup\xE9s, etc. Cette carte se veut \xE9volutive et
+        collaborative, pourquoi pas imaginer une carte par saison, une carte pour les petits ou les
+        grands, les possibilit\xE9s sont presque infinies !
+
+        `),I=r(P,"DIV",{});var N=u(I);T=E(N,`L'objectif de cette cartographie est de proposer des parcours aux promeneurs gr\xE2ce \xE0 un
+          d\xE9pliant ou une carte interactive (en cours de d\xE9veloppement).`),N.forEach(n),P.forEach(n),k=V(o),_=r(o,"DIV",{class:!0});var O=u(_);H=E(O,"outil de m\xE9diation ; valserine ; cartographie ; paysages ; d\xE9pliant ; en cours"),O.forEach(n),o.forEach(n),J.forEach(n),f.forEach(n),this.h()},h(){C(c.src,w="/val-img/DSC03197-01.jpg")||s(c,"src",w),s(c,"alt","Metis studio"),s(c,"class","svelte-11yqspl"),C(d.src,z="/val-img/Carte-03.jpg")||s(d,"src",z),s(d,"alt","Metis studio"),s(d,"class","svelte-11yqspl"),C(p.src,B="/val-img/Carte-02.jpg")||s(p,"src",B),s(p,"alt","Metis studio"),s(p,"class","svelte-11yqspl"),s(l,"class","content svelte-11yqspl"),s(v,"class","WIP svelte-11yqspl"),C(v.src,F="/about/Travail-EC.svg")||s(v,"src",F),s(v,"alt","Metis studio"),s(m,"class","titre svelte-11yqspl"),s(_,"class","tags svelte-11yqspl"),s(t,"class","description-fixed svelte-11yqspl"),s(g,"class","description svelte-11yqspl"),s(i,"class","flex svelte-11yqspl")},m(b,f){Y(b,i,f),e(i,l),e(l,c),e(l,D),e(l,d),e(l,M),e(l,p),e(i,L),e(i,g),e(g,t),e(t,v),e(t,j),e(t,m),e(m,A),e(t,G),e(t,h),e(h,S),e(h,I),e(I,T),e(t,k),e(t,_),e(_,H)},p:W,i:W,o:W,d(b){b&&n(i)}}}class ee extends R{constructor(i){super();U(this,i,null,Z,X,{})}}export{ee as default};
