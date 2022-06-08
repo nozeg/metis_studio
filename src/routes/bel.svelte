@@ -38,7 +38,7 @@
 
   .content {
     flex-grow: 1;
-    justify-content: center;
+    text-align: center;
   }
 
   .description {
