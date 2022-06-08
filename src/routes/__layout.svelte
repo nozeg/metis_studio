@@ -7,6 +7,7 @@
 
   // mobile nav open
   let open = false;
+  // close the menu on navigation
   afterNavigate(() => {
     open = false;
   });
