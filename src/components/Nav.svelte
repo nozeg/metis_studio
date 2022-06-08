@@ -10,8 +10,6 @@
     <LogoTexte />
   </a>
 
-  <img class="logo-gif-container" src="/nav/Texte.svg" alt="txt" />
-
   <a class="links" href="/"> projets </a>
 
   <a class="links" href="/about"> à propos </a>
@@ -19,7 +17,7 @@
   <a class="links" href="/outils"> outils </a>
 
   <div class="imagebas">
-    <a href="https://www.linkedin.com/company/m%C3%A9tis-studio/" target="_blank"> <Imagebas /></a>
+    <Imagebas />
   </div>
 
   <div class="reseaux">
@@ -42,7 +40,7 @@
   }
 
   .logo-texte-container {
-    margin: 00px 0px 0px 0px;
+    margin: 0px 0px 70px 0px;
     display: flex;
     justify-content: center;
     font-weight: 1000;
@@ -52,29 +50,32 @@
     display: block;
     margin-left: 30px;
     text-decoration: none;
-    color: #576775;
-    font-size: 18;
+    color: #007d5e;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    letter-spacing: 1.5px;
   }
 
   .reseaux {
     position: fixed;
-    bottom: 5px;
+    bottom: 25px;
     left: 30px;
-    width: 100%;
-    height: 40px;
+    width: 25px;
+    height: 25px;
   }
 
   .reseaux2 {
     position: fixed;
-    bottom: 12px;
+    bottom: 25px;
     left: 60px;
-    width: 100%;
-    height: 40px;
+    width: 25px;
+    height: 25px;
   }
 
   .imagebas {
     position: fixed;
-    bottom: 8%;
-    left: -8%;
+    bottom: -5px;
+    left: 0px;
   }
 </style>

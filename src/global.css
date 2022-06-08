@@ -1,12 +1,18 @@
 @font-face {
-  font-family: 'porpora';
+  font-family: 'quicksand';
   font-weight: 400;
-  src: url('/fonts/quicksand/Porpora-Regular.ttf');
+  src: url('/fonts/quicksand/Quicksand-Regular.ttf');
 }
 @font-face {
-  font-family: 'ostrisch';
+  font-family: 'quicksand';
   font-weight: 800;
-  src: url('/fonts/quicksand/Porpora-Regular.ttf');
+  src: url('/fonts/quicksand/Quicksand-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'quicksand';
+  font-weight: 600;
+  src: url('/fonts/quicksand/Quicksand-SemiBold.ttf');
 }
 
 body {
@@ -15,10 +21,10 @@ body {
 
 * {
   box-sizing: border-box;
-  font-family: porpora, sans-serif;
+  font-family: quicksand, sans-serif;
   font-weight: 400;
 }
 
 a {
-  color: #576775;
+  color: #007d5e;
 }

@@ -1,18 +1,14 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="10.2306mm"
-  height="10.2286mm"
-  viewBox="0 0 29 28.9945"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 28.9945"
   ><defs
     ><style>
       .a {
-        fill: #788ea2;
+        fill: #ff5959;
       }
       .b {
         fill: #fff;
       }
       .c {
-        fill: #788ea2;
+        fill: #ff5959;
       }
     </style></defs
   ><title>Logo-L</title><circle class="a" cx="14.4589" cy="14.4453" r="14.5" /><path
