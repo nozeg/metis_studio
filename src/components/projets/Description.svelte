@@ -22,7 +22,7 @@
     width: 400px;
     padding: 100px 30px 16px 30px;
     text-align: justify;
-    color: #576775;
+    color: #0c795c;
     font-size: 14px;
     background-color: white;
   }
