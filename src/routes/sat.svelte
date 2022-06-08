@@ -59,7 +59,7 @@
     width: 400px;
     padding: 100px 30px 16px 30px;
     text-align: justify;
-    color: #4d6e56;
+    color: #576775;
     font-size: 14px;
     background-color: white;
   }

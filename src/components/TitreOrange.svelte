@@ -19,7 +19,7 @@
 
   .border {
     content: ' ';
-    background-color: #c66c44;
+    background-color: #576775;
     position: absolute;
     bottom: -4px;
     right: -4px;
@@ -34,7 +34,7 @@
     font-weight: 800;
     padding: 8px;
     background-color: var(--bgColor);
-    color: #c66c44;
+    color: #576775;
     z-index: 2;
   }
 </style>

@@ -1,24 +1,30 @@
 @font-face {
-    font-family: 'quicksand';
-    font-weight: 400;
-    src: url('/fonts/quicksand/Quicksand-Regular.ttf');
+  font-family: 'quicksand';
+  font-weight: 400;
+  src: url('/fonts/quicksand/Quicksand-Regular.ttf');
 }
 @font-face {
-    font-family: 'quicksand';
-    font-weight: 800;
-    src: url('/fonts/quicksand/Quicksand-Bold.ttf');
+  font-family: 'quicksand';
+  font-weight: 800;
+  src: url('/fonts/quicksand/Quicksand-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'quicksand';
+  font-weight: 600;
+  src: url('/fonts/quicksand/Quicksand-SemiBold.ttf');
 }
 
 body {
-    margin:0;
+  margin: 0;
 }
 
 * {
-    box-sizing: border-box;
-    font-family: quicksand, sans-serif;
-    font-weight: 400;
+  box-sizing: border-box;
+  font-family: quicksand, sans-serif;
+  font-weight: 400;
 }
 
 a {
-    color: #c66c44;
+  color: #007d5e;
 }
