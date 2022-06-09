@@ -3,6 +3,7 @@
   import LogoInsta from './LogoInsta.svelte';
   import LogoL from './LogoL.svelte';
   import Imagebas from './Imagebas.svelte';
+  import LogoTexteMobile from './LogoTexteMobile.svelte';
 </script>
 
 <nav>
@@ -10,8 +11,11 @@
     <LogoTexte />
   </a>
 
-  <a class="links" href="/"> projets </a>
+  <a class="logo-texte-mobile-container" href="/">
+    <LogoTexteMobile />
+  </a>
 
+  <a class="links" href="/"> projets </a>
   <a class="links" href="/about"> à propos </a>
   <a class="links" href="/contact"> contact </a>
   <a class="links" href="/outils"> outils </a>
@@ -36,10 +40,17 @@
   }
 
   .logo-texte-container {
-    margin: 0px 0px 70px 0px;
-    display: flex;
-    justify-content: center;
-    font-weight: 1000;
+    display: none;
+  }
+  @media (min-width: 1025px) {
+    .logo-texte-container {
+      margin: 0px 0px 70px 0px;
+      display: flex;
+      justify-content: center;
+    }
+    .logo-texte-mobile-container {
+      display: none;
+    }
   }
 
   .links {
@@ -71,7 +82,8 @@
 
   .imagebas {
     position: fixed;
-    bottom: -5px;
+    bottom: 0px;
     left: 0px;
+    line-height: 1px;
   }
 </style>

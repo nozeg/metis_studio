@@ -1,9 +1,12 @@
 <script lang="ts">
-  import type Projet from '$types/projet';
+  import LogoTexte from '$components/LogoTexte.svelte';
   import LienProjet from '../components/LienProjet.svelte';
 </script>
 
 <div class="listeprojets">
+  <div class="home-logo">
+    <LogoTexte width="100%" />
+  </div>
   <LienProjet
     titre="INV - Villes invisibles"
     lien=""
@@ -40,5 +43,15 @@
     flex-wrap: wrap;
     flex-grow: 1;
     margin: 16px 0px 16px 0px;
+  }
+
+  .home-logo {
+    width: min(100%, 400px);
+    margin-top: -16px;
+  }
+  @media (min-width: 1025px) {
+    .home-logo {
+      display: none;
+    }
   }
 </style>
