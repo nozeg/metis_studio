@@ -23,11 +23,7 @@
         fill: #fcbf00;
       }
     </style></defs
-  ><title>220608.Site-webai-nav-15</title><rect
-    class="ec643bdb-15e6-427d-bccc-100de26973d3"
-    width="264"
-    height="734.51"
-  /><path
+  ><rect class="ec643bdb-15e6-427d-bccc-100de26973d3" width="264" height="734.51" /><path
     class="74ecfb0e-733e-49ac-9b39-b61a56d49781"
     d="M264.01,675.11v59.4H0V218.47c15.22.14,28.35,1.28,38.69,1.88,53.35,3.11,128.23-2.5,225.31-39.57V675.11Z"
   /><path

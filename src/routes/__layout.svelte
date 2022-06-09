@@ -3,9 +3,14 @@
   import '../global.css';
   import Nav from '../components/Nav.svelte';
   import { Hamburger } from 'svelte-hamburgers';
+  import { afterNavigate } from '$app/navigation';
 
   // mobile nav open
   let open = false;
+  // close the menu on navigation
+  afterNavigate(() => {
+    open = false;
+  });
 </script>
 
 <div class="layout" class:open>

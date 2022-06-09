@@ -1,21 +1,6 @@
-<script context="module" lang="ts">
-  import { loadAllProjects } from '$lib/projets';
-
-  // la fonction de chargement des projets
-  export const load = async ({ params }) => {
-    const projects = await loadAllProjects();
-    return {
-      props: {
-        projects,
-      },
-    };
-  };
-</script>
-
 <script lang="ts">
   import type Projet from '$types/projet';
   import LienProjet from '../components/LienProjet.svelte';
-  export let projects: Projet[];
 </script>
 
 <div class="listeprojets">
@@ -47,15 +32,6 @@
     colorbox="#f2c8bf"
   />
   <LienProjet titre="" lien="" image="/Icone_maison-infini.gif" colorbox="#cbe0f3" />
-
-  {#each projects as project}
-    <LienProjet
-      titre={project.titre}
-      lien={`/${project.lien}`}
-      colorbox={project.color}
-      image={project.thumbnail}
-    />
-  {/each}
 </div>
 
 <style>
