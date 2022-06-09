@@ -35,10 +35,6 @@
     background-color: white;
   }
 
-  .logo-gif-container {
-    margin: -0px -6px 40px;
-  }
-
   .logo-texte-container {
     margin: 0px 0px 70px 0px;
     display: flex;

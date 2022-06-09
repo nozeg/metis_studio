@@ -7,7 +7,7 @@
 
 <a class="projetINV" href={lien} style="--Colorprojet:{colorbox}">
   <span class="img-container">
-    <img src={image} />
+    <img src={image} alt={titre} />
   </span>
   <span class="cover" />
   <span class="title">{titre}</span>
@@ -16,8 +16,8 @@
 <style>
   .projetINV {
     position: relative;
-    width: 333px;
-    height: 333px;
+    width: min(333px, calc(100vw - 40px));
+    height: min(333px, calc(100vw - 40px));
     text-decoration: none;
     margin: 20px;
   }
