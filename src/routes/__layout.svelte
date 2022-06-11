@@ -4,6 +4,7 @@
   import Nav from '../components/Nav.svelte';
   import { Hamburger } from 'svelte-hamburgers';
   import { afterNavigate } from '$app/navigation';
+  import Footer from '$components/Footer.svelte';
 
   // mobile nav open
   let open = false;
@@ -29,10 +30,14 @@
       <Nav />
     </div>
   </div>
-
-  <main>
-    <slot />
-  </main>
+  <div>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <Footer />
+    </footer>
+  </div>
 </div>
 
 <style>
@@ -102,5 +107,10 @@
     .mobile-menu-toggle {
       display: none;
     }
+  }
+
+  footer {
+    max-width: 100%;
+    bottom: 0;
   }
 </style>

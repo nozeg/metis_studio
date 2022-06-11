@@ -9,7 +9,7 @@
       <img class="WIP" src="/about/Travail-EC.svg" alt="Metis studio" />
 
       <div class="titre">VAL - Au fil de la Valserine, une cartographie sensible</div>
-      <div>
+      <div class="description-txt">
         Et si on découvrait autrement la vallée de la Valserine ? C’est la question à l’origine de
         cette cartographie qui prend le parti d’utiliser ses 5 sens pour essayer de sensibiliser le
         promeneur à son environnement, au-delà de ce qu’il peut voir. Les paysages de la Valserine
@@ -18,12 +18,13 @@
         en été l’odeur des épicéas fraîchement coupés, etc. Cette carte se veut évolutive et
         collaborative, pourquoi pas imaginer une carte par saison, une carte pour les petits ou les
         grands, les possibilités sont presque infinies !
-
-        <div>
-          L'objectif de cette cartographie est de proposer des parcours aux promeneurs grâce à un
-          dépliant ou une carte interactive (en cours de développement).
-        </div>
       </div>
+
+      <div class="description-txt">
+        L'objectif de cette cartographie est de proposer des parcours aux promeneurs grâce à un
+        dépliant ou une carte interactive (en cours de développement).
+      </div>
+
       <div class="tags">
         outil de médiation ; valserine ; cartographie ; paysages ; dépliant ; en cours
       </div>
@@ -38,10 +39,7 @@
 
   .content {
     flex-grow: 1;
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
   }
 
   .description {
@@ -65,6 +63,10 @@
     font-weight: 800;
     font-size: 18px;
     margin-bottom: 30px;
+  }
+
+  .description-txt {
+    margin-bottom: 10px;
   }
 
   .tags {
