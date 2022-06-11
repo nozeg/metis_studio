@@ -70,6 +70,7 @@
 
   a:hover .cover {
     background-image: url('/index/carre-03.svg');
+    fill: var(--Colorprojet);
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: white;

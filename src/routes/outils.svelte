@@ -1,7 +1,3 @@
-<script>
-  import TitreOrange from '$components/TitreOrange.svelte';
-</script>
-
 <img class="imgWIP" src="/WIP2.svg" alt="Metis studio" />
 
 <div class="flex">
