@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-4f248d54.js",
+    "file": "start-01251d04.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -140,39 +140,33 @@
     ]
   },
   "src/routes/isl.svelte": {
-    "file": "pages/isl.svelte-00c382aa.js",
+    "file": "pages/isl.svelte-eba2c7fb.js",
     "src": "src/routes/isl.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-1b1831bc.js"
-    ],
-    "css": [
-      "assets/pages/isl.svelte-017166bb.css"
+      "_vendor-1b1831bc.js",
+      "_Image-48e8425f.js"
     ]
   },
   "src/routes/sat.svelte": {
-    "file": "pages/sat.svelte-ff0ec85e.js",
+    "file": "pages/sat.svelte-bf7daa7a.js",
     "src": "src/routes/sat.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-1b1831bc.js"
-    ],
-    "css": [
-      "assets/pages/isl.svelte-017166bb.css"
+      "_vendor-1b1831bc.js",
+      "_Image-48e8425f.js"
     ]
   },
   "src/routes/val.svelte": {
-    "file": "pages/val.svelte-c143b919.js",
+    "file": "pages/val.svelte-6cafa966.js",
     "src": "src/routes/val.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-1b1831bc.js"
-    ],
-    "css": [
-      "assets/pages/isl.svelte-017166bb.css"
+      "_vendor-1b1831bc.js",
+      "_Image-48e8425f.js"
     ]
   },
   "_vendor-1b1831bc.js": {
