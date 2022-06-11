@@ -10,54 +10,84 @@
   });
 </script>
 
-<div class="flex milieu">
-  <div class="boxtexte">
-    <div class="titre">
-      <TitreOrange backgroundColor="#fbf2ef">Contactez-moi !</TitreOrange>
+<div class="flex">
+  <div class="description">
+    <div class="description-fixed">
+      <div>
+        <div class="titre">Contactez-moi !</div>
+      </div>
+      <div class="description-txt">
+        Pour toute demande, information, ou collaboration, n'hésitez pas à écrire à :
+      </div>
+      <div>
+        <a class="description-txt" href="mailto:nour.metis.studio@gmail.com"
+          >nour.metis.studio@gmail.com</a
+        >
+      </div>
+      <div>
+        <div class="titre2">We speak english ♥</div>
+      </div>
     </div>
-    <div class="texte bold">Métis studio</div>
   </div>
-
-  <div class="texte2">
-    Pour toute demande, information, ou collaboration, n'hésitez pas à écrire à :
+  <div class="content">
+    <img src="/contact/Dessin-contact.jpg" alt="Metis studio" />
   </div>
-  <div>
-    <a class="texte2" href="mailto:nour.metis.studio@gmail.com">nour.metis.studio@gmail.com</a>
-  </div>
-
-  <img class="flex dessin2" src="/contact/lettre.svg" alt="Métis Studio" />
 </div>
 
 <style>
-  .milieu {
+  .flex {
+    display: flex;
+  }
+
+  .content {
     flex-grow: 1;
-  }
-  .boxtexte {
-    width: 50%;
-    margin-top: 10%;
-    margin-left: 10%;
-    position: relative;
+    justify-content: center;
   }
 
-  .dessin2 {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-left: 55%;
-    margin-top: -15%;
-    padding: 20px;
+  .description {
+    width: 400px;
+    flex-shrink: 0;
   }
 
-  .bold {
-    font-weight: 600;
-    font-size: 16px;
-    margin-bottom: 16px;
-  }
-
-  .texte2 {
+  .description-fixed {
+    position: fixed;
+    top: 0;
+    width: 400px;
+    padding: 100px 30px 16px 30px;
+    margin-bottom: 100px;
+    text-align: justify;
+    color: #0c795c;
     font-size: 14px;
-    width: 50%;
-    margin-top: 10px;
-    margin-left: 10%;
+    background-color: white;
+  }
+
+  .titre {
+    font-family: bakso;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-image: url('/contact/Texte-fond.svg');
+    background-position: 0% -20%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+
+  .titre2 {
+    font-family: bakso;
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .description-txt {
+    margin-bottom: 10px;
+  }
+
+  img {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100vh;
   }
 </style>

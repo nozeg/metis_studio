@@ -75,7 +75,7 @@
     ><clipPath id="g"
       ><rect class="a" x="-74.334" y="35.3288" width="154.0493" height="208.0479" /></clipPath
     ></defs
-  ><title>Menu2</title><g class="b"
+  ><g class="b"
     ><g class="c"
       ><polygon
         class="d"

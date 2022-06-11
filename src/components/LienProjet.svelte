@@ -7,7 +7,7 @@
 
 <a class="projetINV" href={lien} style="--Colorprojet:{colorbox}">
   <span class="img-container">
-    <img src={image} />
+    <img src={image} alt={titre} />
   </span>
   <span class="cover" />
   <span class="title">{titre}</span>
@@ -16,8 +16,8 @@
 <style>
   .projetINV {
     position: relative;
-    width: 333px;
-    height: 333px;
+    width: min(333px, calc(100vw - 40px));
+    height: min(333px, calc(100vw - 40px));
     text-decoration: none;
     margin: 20px;
   }
@@ -40,12 +40,12 @@
   }
 
   .title {
-    color: white;
+    color: #19a880;
     opacity: 0;
     align-self: flex-end;
     font-weight: 800;
     position: absolute;
-    bottom: 30px;
+    bottom: 50px;
     left: 0px;
     right: 0px;
     text-align: center;
@@ -63,8 +63,16 @@
     transition-property: background-color;
     transition-duration: 150ms;
   }
-  a:hover .cover {
+
+  svg {
     background-color: var(--Colorprojet);
+  }
+
+  a:hover .cover {
+    background-image: url('/index/carre-03.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
   }
 
   a:hover .title {

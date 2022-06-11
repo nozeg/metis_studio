@@ -15,6 +15,12 @@
   src: url('/fonts/quicksand/Quicksand-SemiBold.ttf');
 }
 
+@font-face {
+  font-family: 'bakso';
+  font-weight: 700;
+  src: url('/fonts/bakso/BaksoSapi.ttf');
+}
+
 body {
   margin: 0;
 }
