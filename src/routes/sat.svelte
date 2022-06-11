@@ -1,6 +1,11 @@
 <div class="flex">
   <div class="content">
-    <img src="/sat-img/EC.png" alt="Metis studio" />
+    <img src="/sat-img/01.jpg" alt="Metis studio" />
+    <img src="/sat-img/02.jpg" alt="Metis studio" />
+    <img src="/sat-img/03.jpg" alt="Metis studio" />
+    <img src="/sat-img/04.jpg" alt="Metis studio" />
+    <img src="/sat-img/05.jpg" alt="Metis studio" />
+    <img src="/sat-img/06.jpg" alt="Metis studio" />
   </div>
   <div class="description">
     <div class="description-fixed">
@@ -27,6 +32,9 @@
           target="_blank">www.ecolechantier.ch</a
         >
       </div>
+
+      <div class="description-txt">Photographies de Paola Corsini.</div>
+
       <div class="tags">
         outil de médiation ; satigny ; enfants ; école ; processus participatif ; en cours
       </div>

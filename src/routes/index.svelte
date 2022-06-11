@@ -8,9 +8,9 @@
     <LogoTexte width="100%" />
   </div>
   <LienProjet
-    titre="INV - Villes invisibles"
-    lien=""
-    image="/inv-img/inv-1-01-01.jpg"
+    titre="ISL - L'Islande, une terre de contrastes"
+    lien="/isl"
+    image="/isl/01.jpg"
     colorbox="#576775"
   />
   <LienProjet
@@ -35,6 +35,12 @@
     colorbox="#f2c8bf"
   />
   <LienProjet titre="" lien="" image="/Icone_maison-infini.gif" colorbox="#cbe0f3" />
+  <LienProjet
+    titre="INV - Villes invisibles"
+    lien=""
+    image="/inv-img/inv-1-01-01.jpg"
+    colorbox="#576775"
+  />
 </div>
 
 <style>
