@@ -40,12 +40,12 @@
   }
 
   .title {
-    color: white;
+    color: #19a880;
     opacity: 0;
     align-self: flex-end;
     font-weight: 800;
     position: absolute;
-    bottom: 30px;
+    bottom: 50px;
     left: 0px;
     right: 0px;
     text-align: center;
@@ -63,8 +63,16 @@
     transition-property: background-color;
     transition-duration: 150ms;
   }
-  a:hover .cover {
+
+  svg {
     background-color: var(--Colorprojet);
+  }
+
+  a:hover .cover {
+    background-image: url('/index/carre-03.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
   }
 
   a:hover .title {
