@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-01251d04.js",
+    "file": "start-04fc458f.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -14,6 +14,8 @@
       "src/routes/aquarelle.svelte",
       "src/routes/boutique.svelte",
       "src/routes/contact.svelte",
+      "src/routes/about2.svelte",
+      "src/routes/about3.svelte",
       "src/routes/outils.svelte",
       "src/routes/projet.svelte",
       "src/routes/about.svelte",
@@ -47,7 +49,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-08a80bc2.js",
+    "file": "pages/index.svelte-ccbff2b9.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -56,7 +58,7 @@
       "_LogoTexte-6791ca0b.js"
     ],
     "css": [
-      "assets/pages/index.svelte-34e487d4.css"
+      "assets/pages/index.svelte-f6b01c06.css"
     ]
   },
   "src/routes/aquarelle.svelte": {
@@ -91,8 +93,29 @@
       "assets/TitreOrange.svelte_svelte_type_style_lang-467fbea5.css"
     ]
   },
+  "src/routes/about2.svelte": {
+    "file": "pages/about2.svelte-c522d1bd.js",
+    "src": "src/routes/about2.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-1b1831bc.js"
+    ],
+    "css": [
+      "assets/pages/about2.svelte-5498cd10.css"
+    ]
+  },
+  "src/routes/about3.svelte": {
+    "file": "pages/about3.svelte-6054e7b8.js",
+    "src": "src/routes/about3.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-1b1831bc.js"
+    ]
+  },
   "src/routes/outils.svelte": {
-    "file": "pages/outils.svelte-7bc4049e.js",
+    "file": "pages/outils.svelte-0122469a.js",
     "src": "src/routes/outils.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -100,8 +123,7 @@
       "_vendor-1b1831bc.js"
     ],
     "css": [
-      "assets/pages/outils.svelte-18009561.css",
-      "assets/TitreOrange.svelte_svelte_type_style_lang-467fbea5.css"
+      "assets/pages/outils.svelte-18009561.css"
     ]
   },
   "src/routes/projet.svelte": {
