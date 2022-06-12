@@ -3,13 +3,14 @@
   export let lien;
   export let image;
   export let colorbox;
+  import Bulle from './Bulle.svelte';
 </script>
 
 <a class="projetINV" href={lien} style="--Colorprojet:{colorbox}">
   <span class="img-container">
     <img src={image} alt={titre} />
   </span>
-  <span class="cover" />
+  <Bulle class="cover" />
   <span class="title">{titre}</span>
 </a>
 
@@ -40,12 +41,13 @@
   }
 
   .title {
-    color: #19a880;
+    color: white;
     opacity: 0;
     align-self: flex-end;
+    font-size: 14px;
     font-weight: 800;
     position: absolute;
-    bottom: 50px;
+    bottom: 150px;
     left: 0px;
     right: 0px;
     text-align: center;
@@ -62,18 +64,6 @@
     right: 0px;
     transition-property: background-color;
     transition-duration: 150ms;
-  }
-
-  svg {
-    background-color: var(--Colorprojet);
-  }
-
-  a:hover .cover {
-    background-image: url('/index/carre-03.svg');
-    fill: var(--Colorprojet);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: white;
   }
 
   a:hover .title {
