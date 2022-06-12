@@ -10,7 +10,7 @@
   <span class="img-container">
     <img src={image} alt={titre} />
   </span>
-  <Bulle class="cover" />
+  <Bulle />
   <span class="title">{titre}</span>
 </a>
 
