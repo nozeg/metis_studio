@@ -35,12 +35,7 @@
     colorbox="#f2c8bf"
   />
   <LienProjet titre="" lien="" image="/Icone_maison-infini.gif" colorbox="#cbe0f3" />
-  <LienProjet
-    titre="INV - Villes invisibles"
-    lien=""
-    image="/inv-img/inv-1-01-01.jpg"
-    colorbox="#576775"
-  />
+  <LienProjet titre="" lien="" image="/inv-img/inv-1-01-01.jpg" colorbox="#576775" />
 </div>
 
 <style>
