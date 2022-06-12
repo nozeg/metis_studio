@@ -7,7 +7,7 @@
 </script>
 
 <Layout>
-  <Description titre="ISL - L'Islande, une terre de contraste" wip>
+  <Description titre="ISL - Islande, terre de contraste" wip>
     A venir !
 
     <Tags>illustration ; islande ; carnet de voyage ; en cours</Tags>
