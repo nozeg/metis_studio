@@ -8,7 +8,7 @@
     <LogoTexte width="100%" />
   </div>
   <LienProjet
-    titre="ISL - L'Islande, une terre de contrastes"
+    titre="ISL - Islande, terre de contrastes"
     lien="/isl"
     image="/isl/01.jpg"
     colorbox="#576775"
@@ -22,7 +22,7 @@
   <LienProjet titre="SAT - Ecole chantier" lien="/sat" image="/sat-img/EC.png" colorbox="#e6b399" />
 
   <LienProjet
-    titre="BEL - Il était une fois Bellegarde Art Déco"
+    titre="BEL - Bellegarde Art Déco"
     lien="/bel"
     image="/bel-images/Hotel-de-ville-bleu.gif"
     colorbox="#788ea2"
