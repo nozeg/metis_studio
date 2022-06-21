@@ -14,6 +14,10 @@
   });
 </script>
 
+<svelte:head>
+  <title>Métis Studio | Urbanisme & illustration</title>
+</svelte:head>
+
 <div class="layout" class:open>
   <div class="mobile-menu-toggle">
     <Hamburger
