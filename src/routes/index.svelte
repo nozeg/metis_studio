@@ -5,11 +5,11 @@
 
 <div class="flex">
   <div>
-    <Urbanismeindex />
+    <a href="/indexurbanisme/"> <Urbanismeindex /></a>
     <h2 class="titre">Urbanisme et médiation</h2>
   </div>
   <div>
-    <Fenetrebourdons />
+    <a href="/indexillustration/"> <Fenetrebourdons /></a>
     <h2 class="titre">Illustration</h2>
   </div>
 </div>

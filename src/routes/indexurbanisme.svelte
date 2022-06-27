@@ -7,12 +7,7 @@
   <div class="home-logo">
     <LogoTexte width="100%" />
   </div>
-  <LienProjet
-    titre="ISL - Islande, terre de contrastes"
-    lien="/isl"
-    image="/isl/01.jpg"
-    colorbox="#576775"
-  />
+
   <LienProjet
     titre="VAL - Au fil de la Valserine"
     lien="/val"
@@ -34,8 +29,6 @@
     image="/aqu-images/Montagne_2jpg.jpg"
     colorbox="#f2c8bf"
   />
-  <LienProjet titre="" lien="" image="/Icone_maison-infini.gif" colorbox="#cbe0f3" />
-  <LienProjet titre="" lien="" image="/inv-img/inv-1-01-01.jpg" colorbox="#576775" />
 </div>
 
 <style>
