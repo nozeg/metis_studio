@@ -1,58 +1,41 @@
-<script lang="ts">
-  import LogoTexte from '$components/LogoTexte.svelte';
-  import LienProjet from '../components/LienProjet.svelte';
+<script>
+  import Urbanismeindex from '$components/Urbanismeindex.svelte';
+  import Fenetrebourdons from '$components/Fenetrebourdons.svelte';
 </script>
 
-<div class="listeprojets">
-  <div class="home-logo">
-    <LogoTexte width="100%" />
+<div class="flex">
+  <div>
+    <a href="/indexurbanisme/"> <Urbanismeindex /></a>
+    <h2 class="titre">Urbanisme et médiation</h2>
   </div>
-  <LienProjet
-    titre="ISL - Islande, terre de contrastes"
-    lien="/isl"
-    image="/isl/01.jpg"
-    colorbox="#576775"
-  />
-  <LienProjet
-    titre="VAL - Au fil de la Valserine"
-    lien="/val"
-    image="/val-img/27042022-DSC03941.jpg"
-    colorbox="#f39986"
-  />
-  <LienProjet titre="SAT - Ecole chantier" lien="/sat" image="/sat-img/EC.png" colorbox="#e6b399" />
-
-  <LienProjet
-    titre="BEL - Bellegarde Art Déco"
-    lien="/bel"
-    image="/bel-images/Hotel-de-ville-bleu.gif"
-    colorbox="#788ea2"
-  />
-
-  <LienProjet
-    titre="AQU - Aquarelles du territoire"
-    lien="/aquarelle"
-    image="/aqu-images/Montagne_2jpg.jpg"
-    colorbox="#f2c8bf"
-  />
-  <LienProjet titre="" lien="" image="/Icone_maison-infini.gif" colorbox="#cbe0f3" />
-  <LienProjet titre="" lien="" image="/inv-img/inv-1-01-01.jpg" colorbox="#576775" />
+  <div>
+    <a href="/indexillustration/"> <Fenetrebourdons /></a>
+    <h2 class="titre">Illustration</h2>
+  </div>
 </div>
 
 <style>
-  .listeprojets {
+  .flex {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    margin: 16px 0px 16px 0px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
   }
 
-  .home-logo {
-    width: min(100%, 400px);
-    margin-top: -16px;
-  }
-  @media (min-width: 1025px) {
-    .home-logo {
-      display: none;
+  @media (min-width: 768px) {
+    .flex {
+      justify-content: space-evenly;
+      flex-direction: row;
     }
+  }
+
+  .titre {
+    font-family: bakso;
+    font-weight: 700;
+    font-size: 18px;
+    color: #007d5e;
+    padding-top: 10px;
+    padding-bottom: 30px;
   }
 </style>
