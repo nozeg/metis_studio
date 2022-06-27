@@ -10,8 +10,10 @@
   <span class="img-container">
     <img src={image} alt={titre} />
   </span>
-  <Bulle />
-  <span class="title">{titre}</span>
+  <div class="bulle-container">
+    <Bulle />
+    <span class="title">{titre}</span>
+  </div>
 </a>
 
 <style>
@@ -40,9 +42,20 @@
     margin: 0px auto;
   }
 
+  .bulle-container {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 250ms;
+  }
+
+  @media (hover: hover) {
+    .projetINV:hover .bulle-container {
+      opacity: 1;
+    }
+  }
+
   .title {
     color: white;
-    opacity: 0;
     align-self: flex-end;
     font-size: 14px;
     font-weight: 800;
@@ -51,22 +64,5 @@
     left: 0px;
     right: 0px;
     text-align: center;
-    transition-property: opacity;
-    transition-duration: 150ms;
-  }
-
-  .cover {
-    display: block;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    transition-property: background-color;
-    transition-duration: 150ms;
-  }
-
-  a:hover .title {
-    opacity: 1;
   }
 </style>
