@@ -30,7 +30,7 @@
       <Nav />
     </div>
   </div>
-  <div>
+  <div class="main">
     <main>
       <slot />
     </main>
@@ -58,10 +58,16 @@
 
   .layout {
     display: flex;
+    min-height: 100vh;
   }
-
+  .main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
   main {
     flex-grow: 1;
+    display: flex;
   }
 
   @media (max-width: 1024px) {
