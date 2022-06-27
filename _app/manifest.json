@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-45b0cdab.js",
+    "file": "start-d11c7709.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -11,6 +11,8 @@
       "src/routes/__layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
       "src/routes/index.svelte",
+      "src/routes/indexillustration.svelte",
+      "src/routes/indexurbanisme.svelte",
       "src/routes/aquarelle.svelte",
       "src/routes/boutique.svelte",
       "src/routes/contact.svelte",
@@ -27,7 +29,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-7e8ca6f2.js",
+    "file": "pages/__layout.svelte-6bfa0f4d.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -37,7 +39,7 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-2088c18d.css"
+      "assets/pages/__layout.svelte-ce08b194.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -50,16 +52,43 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-f1bb6ce0.js",
+    "file": "pages/index.svelte-90c25dca.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-981532c1.js",
-      "_LogoTexte-343a63e3.js"
+      "_vendor-981532c1.js"
     ],
     "css": [
-      "assets/pages/index.svelte-fbe149c9.css"
+      "assets/pages/index.svelte-f2ec8fee.css"
+    ]
+  },
+  "src/routes/indexillustration.svelte": {
+    "file": "pages/indexillustration.svelte-b6a0a2b0.js",
+    "src": "src/routes/indexillustration.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-981532c1.js",
+      "_LogoTexte-343a63e3.js",
+      "_LienProjet-2e9dbbd1.js"
+    ],
+    "css": [
+      "assets/pages/indexillustration.svelte-45b7ae28.css"
+    ]
+  },
+  "src/routes/indexurbanisme.svelte": {
+    "file": "pages/indexurbanisme.svelte-a34c359b.js",
+    "src": "src/routes/indexurbanisme.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-981532c1.js",
+      "_LogoTexte-343a63e3.js",
+      "_LienProjet-2e9dbbd1.js"
+    ],
+    "css": [
+      "assets/pages/indexillustration.svelte-45b7ae28.css"
     ]
   },
   "src/routes/aquarelle.svelte": {
@@ -220,6 +249,15 @@
     ],
     "css": [
       "assets/LogoTexte-33a6dfe1.css"
+    ]
+  },
+  "_LienProjet-2e9dbbd1.js": {
+    "file": "chunks/LienProjet-2e9dbbd1.js",
+    "imports": [
+      "_vendor-981532c1.js"
+    ],
+    "css": [
+      "assets/LienProjet-0cd3bd46.css"
     ]
   },
   "_Image-1695b8b4.js": {
