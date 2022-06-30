@@ -38,7 +38,7 @@
     width: 100%;
     display: flex;
     flex-grow: 1;
-
+    align-items: flex-start;
     flex-direction: column;
   }
 
