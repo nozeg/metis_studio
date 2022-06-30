@@ -18,6 +18,7 @@
   .flex {
     width: 100%;
     display: flex;
+    flex-grow: 1;
     align-items: center;
     text-align: center;
     flex-direction: column;

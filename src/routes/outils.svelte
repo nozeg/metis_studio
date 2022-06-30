@@ -1,8 +1,14 @@
-<img class="imgWIP" src="/WIP2.svg" alt="Metis studio" />
+<script>
+  import TitreVert from '$components/TitreVert.svelte';
+  import Wip from '$components/Wip.svelte';
+</script>
 
+<Wip />
 <div class="flex">
   <div class="content">
-    <div class="titre">Sérigraphie</div>
+    <div class="title-container">
+      <TitreVert>Sérigraphie</TitreVert>
+    </div>
 
     <div class="texte">
       Procédé d'impression à l'aide d'un écran constitué par un cadre sur lequel est tendu un tissu
@@ -16,7 +22,9 @@
 
 <div class="flex">
   <div class="content">
-    <div class="titre">Risographie</div>
+    <div class="title-container">
+      <TitreVert>Risographie</TitreVert>
+    </div>
     <div class="texte">
       Procédé d'impression dérivé de l'offset, utilisant un système de stencil et permettant des
       tirages en couleur économiques.
@@ -26,12 +34,6 @@
 </div>
 
 <style>
-  .imgWIP {
-    margin-left: 70%;
-    margin-top: 5%;
-    margin-bottom: -10%;
-  }
-
   .photo {
     max-width: 100%;
     height: auto;
@@ -53,18 +55,7 @@
     color: #007d5e;
   }
 
-  .titre {
-    font-family: bakso;
-    font-weight: 700;
-    font-size: 18px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    background-image: url('/contact/Texte-fond.svg');
-    background-position: -1% 0%;
-    background-size: 30%;
-    background-repeat: no-repeat;
-  }
-
-  .texte {
+  .title-container {
+    margin-bottom: 32px;
   }
 </style>
