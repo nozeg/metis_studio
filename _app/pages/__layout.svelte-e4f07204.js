@@ -116,7 +116,7 @@ import{S as t0,i as c0,s as s0,F as s,t as Q1,G as l,a as c,h as j1,d as t,b as 
         fill: #e2dd77;
       }
       .d1cc220f-8bcf-4dc2-9540-3bad2419c414 {
-        fill: #19a880;
+        fill: #66b19e;
       }
       .\\36 a69c74a-bc25-4409-9302-b564385d28ef {
         fill: #d7ead8;
@@ -151,7 +151,7 @@ import{S as t0,i as c0,s as s0,F as s,t as Q1,G as l,a as c,h as j1,d as t,b as 
         fill: #e2dd77;
       }
       .d1cc220f-8bcf-4dc2-9540-3bad2419c414 {
-        fill: #19a880;
+        fill: #66b19e;
       }
       .\\36 a69c74a-bc25-4409-9302-b564385d28ef {
         fill: #d7ead8;
