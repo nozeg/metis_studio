@@ -27,9 +27,9 @@
       <div class="anglais">We speak english ♥</div>
     </div>
   </div>
-  <div class="photo">
+  <svg class="photo">
     <Tapis2 />
-  </div>
+  </svg>
 </div>
 
 <style>
@@ -60,6 +60,7 @@
 
   .content {
     max-width: 400px;
+    padding: 10px;
     margin-top: 2%;
     margin-left: 10px;
     margin-bottom: 2%;
@@ -73,7 +74,7 @@
 
   .texte {
     max-width: 400px;
-    padding: 10px;
+
     text-align: justify;
     color: #0c795c;
     font-size: 14px;
@@ -83,8 +84,14 @@
     font-family: bakso;
     font-weight: 700;
     font-size: 14px;
-    padding: 10px;
     padding-top: 50px;
     padding-bottom: 30px;
+  }
+
+  svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 5px;
   }
 </style>

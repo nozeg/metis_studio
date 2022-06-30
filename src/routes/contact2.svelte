@@ -13,46 +13,40 @@
 
 <div class="flex">
   <div class="content">
-    <div class="title-container">
+    <h1 class="title-container">
       <TitreVert>Contactez-moi !</TitreVert>
-    </div>
+    </h1>
 
-    <div class="texte">
+    <p class="texte">
       Pour toute demande, information, ou collaboration, n'hésitez pas à écrire à :
-    </div>
-    <div>
-      <a class="texte" href={`mailto:${email}`}>{email}</a>
-    </div>
-    <div>
-      <div class="anglais">We speak english ♥</div>
-    </div>
+    </p>
+
+    <a class="texte" href={`mailto:${email}`}>{email}</a>
+
+    <p class="anglais">We speak english ♥</p>
   </div>
-  <div class="photo">
-    <Tapis2 />
-  </div>
+  <Tapis2 />
 </div>
 
 <style>
-  .photo {
-    max-width: 100%;
+  svg {
+    display: flex;
     height: auto;
     display: block;
     margin-top: 5px;
   }
 
   .flex {
-    margin-top: 30px;
     width: 100%;
     display: flex;
     flex-grow: 1;
-    align-items: left;
+    align-items: center;
     text-align: left;
     flex-direction: column;
   }
 
   @media (min-width: 768px) {
     .flex {
-      margin-top: 10%;
       justify-content: space-evenly;
       flex-direction: row;
     }
@@ -68,22 +62,16 @@
   }
 
   .title-container {
-    margin-bottom: 32px;
-  }
-
-  .texte {
-    max-width: 400px;
-    padding: 10px;
-    text-align: justify;
-    color: #0c795c;
-    font-size: 14px;
+    padding-left: 10px;
   }
 
   .anglais {
+    max-width: 400px;
+    padding: 10px;
+    text-align: justify;
     font-family: bakso;
     font-weight: 700;
     font-size: 14px;
-    padding: 10px;
     padding-top: 50px;
     padding-bottom: 30px;
   }
