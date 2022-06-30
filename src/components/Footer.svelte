@@ -5,7 +5,7 @@
         fill: #e2dd77;
       }
       .d1cc220f-8bcf-4dc2-9540-3bad2419c414 {
-        fill: #19a880;
+        fill: #66b19e;
       }
       .\36 a69c74a-bc25-4409-9302-b564385d28ef {
         fill: #d7ead8;
