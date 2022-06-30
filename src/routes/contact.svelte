@@ -1,9 +1,9 @@
 <script>
   import { onMount } from 'svelte';
   import caesar from '$lib/caesar';
-  import TitreOrange from '$components/TitreOrange.svelte';
+  import TitreVert from '$components/TitreVert.svelte';
 
-  const hashedEmail = 'h`odn)nop_dj;bh\\dg)^jh';
+  const hashedEmail = 'ijpm)h`odn)nop_dj;bh\\dg)^jh';
   let email = hashedEmail;
   onMount(() => {
     email = caesar(email, 5);
@@ -13,16 +13,14 @@
 <div class="flex">
   <div class="description">
     <div class="description-fixed">
-      <div>
-        <div class="titre">Contactez-moi !</div>
+      <div class="title-container">
+        <TitreVert>Contactez-moi !</TitreVert>
       </div>
       <div class="description-txt">
         Pour toute demande, information, ou collaboration, n'hésitez pas à écrire à :
       </div>
       <div>
-        <a class="description-txt" href="mailto:nour.metis.studio@gmail.com"
-          >nour.metis.studio@gmail.com</a
-        >
+        <a class="description-txt" href={`mailto:${email}`}>{email}</a>
       </div>
       <div>
         <div class="titre2">We speak english ♥</div>
@@ -37,40 +35,29 @@
 <style>
   .flex {
     display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
   }
 
   .content {
     flex-grow: 1;
+    flex-basis: 300px;
     justify-content: center;
   }
 
   .description {
-    width: 400px;
-    flex-shrink: 0;
+    flex-basis: 400px;
   }
 
   .description-fixed {
-    position: fixed;
-    top: 0;
-    width: 400px;
     padding: 100px 30px 16px 30px;
-    margin-bottom: 100px;
     text-align: justify;
     color: #0c795c;
     font-size: 14px;
-    background-color: white;
   }
 
-  .titre {
-    font-family: bakso;
-    font-weight: 700;
-    font-size: 18px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    background-image: url('/contact/Texte-fond.svg');
-    background-position: 0% -20%;
-    background-size: 50%;
-    background-repeat: no-repeat;
+  .title-container {
+    margin-bottom: 32px;
   }
 
   .titre2 {
