@@ -27,19 +27,12 @@
       <div class="anglais">We speak english ♥</div>
     </div>
   </div>
-  <svg class="photo">
+  <div class="photo">
     <Tapis2 />
-  </svg>
+  </div>
 </div>
 
 <style>
-  .photo {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-top: 5px;
-  }
-
   .flex {
     margin-top: 30px;
     width: 100%;
@@ -88,7 +81,7 @@
     padding-bottom: 30px;
   }
 
-  svg {
+  .photo {
     max-width: 100%;
     height: auto;
     display: block;
