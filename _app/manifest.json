@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-859a3b6a.js",
+    "file": "start-d59488f2.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -20,7 +20,6 @@
       "src/routes/about3.svelte",
       "src/routes/outils.svelte",
       "src/routes/projet.svelte",
-      "src/routes/about.svelte",
       "src/routes/isl2.svelte",
       "src/routes/bel.svelte",
       "src/routes/isl.svelte",
@@ -29,7 +28,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-e4f07204.js",
+    "file": "pages/__layout.svelte-f74012de.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -74,7 +73,7 @@
       "_LienProjet-2e9dbbd1.js"
     ],
     "css": [
-      "assets/pages/indexillustration.svelte-45b7ae28.css"
+      "assets/pages/indexurbanisme.svelte-aeb7bc1b.css"
     ]
   },
   "src/routes/indexurbanisme.svelte": {
@@ -88,7 +87,7 @@
       "_LienProjet-2e9dbbd1.js"
     ],
     "css": [
-      "assets/pages/indexillustration.svelte-45b7ae28.css"
+      "assets/pages/indexurbanisme.svelte-aeb7bc1b.css"
     ]
   },
   "src/routes/aquarelle.svelte": {
@@ -111,7 +110,7 @@
     ]
   },
   "src/routes/contact.svelte": {
-    "file": "pages/contact.svelte-9cc130c3.js",
+    "file": "pages/contact.svelte-6709193d.js",
     "src": "src/routes/contact.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -120,7 +119,7 @@
       "_TitreVert-c5b143c5.js"
     ],
     "css": [
-      "assets/pages/contact.svelte-7abbbb21.css"
+      "assets/pages/contact.svelte-5eb6bfe6.css"
     ]
   },
   "src/routes/about2.svelte": {
@@ -136,12 +135,15 @@
     ]
   },
   "src/routes/about3.svelte": {
-    "file": "pages/about3.svelte-7a4d280b.js",
+    "file": "pages/about3.svelte-50c609f4.js",
     "src": "src/routes/about3.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-981532c1.js"
+    ],
+    "css": [
+      "assets/pages/about3.svelte-4f69a57f.css"
     ]
   },
   "src/routes/outils.svelte": {
@@ -167,18 +169,6 @@
     ],
     "css": [
       "assets/pages/projet.svelte-c4c440cc.css"
-    ]
-  },
-  "src/routes/about.svelte": {
-    "file": "pages/about.svelte-ab119132.js",
-    "src": "src/routes/about.svelte",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_vendor-981532c1.js"
-    ],
-    "css": [
-      "assets/pages/about.svelte-a0e1ff32.css"
     ]
   },
   "src/routes/isl2.svelte": {
