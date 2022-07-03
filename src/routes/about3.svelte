@@ -10,7 +10,7 @@
   import Analytiques from '$components/Analytiques.svelte';
 </script>
 
-<div class="flex">
+<div class="flex deux-colonnes">
   <div class="content">
     <h1 class="title-container">
       <Titresvertslongs>Métis Studio, qu'est-ce que c'est ?</Titresvertslongs>
@@ -28,12 +28,12 @@
       C’est <b>mettre au service</b> de la narration une pluralité d’outils adaptés à chaque projet :
     </p>
   </div>
-  <div class="images">
-    <Analytiques />
-    <Graphiques />
-    <Volume />
-    <Vivants />
-  </div>
+</div>
+<div class="flex images ">
+  <Analytiques />
+  <Graphiques />
+  <Volume />
+  <Vivants />
 </div>
 
 <div>
@@ -45,16 +45,16 @@
     <div class="title-container">
       <Titresvertslongs>Métis Studio, quels services ?</Titresvertslongs>
     </div>
-    <div class="texte">
-      <p>Médiation en urbanisme</p>
-      <p>Analyses territoriales</p>
-      <p>Illustration</p>
-      <p>Motion design</p>
-      <p>Organisation de processus participatifs</p>
-      <p>Prints</p>
-    </div>
+    <ul class="texte">
+      <li>Médiation en urbanisme</li>
+      <li>Analyses territoriales</li>
+      <li>Illustration</li>
+      <li>Motion design</li>
+      <li>Organisation de processus participatifs</li>
+      <li>Prints</li>
+    </ul>
   </div>
-  <div>
+  <div class="photo">
     <Gens />
   </div>
 </div>
@@ -79,10 +79,10 @@
   </div>
 </div>
 
-<div class="flex">
+<div class="flex deux-colonnes">
   <div class="content">
     <div class="title-container">
-      <Titresvertslongs>Qui est derrière Métis Studio ?</Titresvertslongs>
+      <Titresvertslongs>Qui est derrière Métis Studio&nbsp;?</Titresvertslongs>
     </div>
     <p class="texte">
       Nour Zeghib est une <b>architecte-urbaniste</b> française diplômée d’Etat et basée à Genève, Suisse
@@ -108,7 +108,9 @@
     </p>
     <p class="texte"><b>C’est la naissance de Métis studio.</b></p>
   </div>
-  <Nour />
+  <div class="photo">
+    <Nour />
+  </div>
 </div>
 
 <style>
@@ -116,7 +118,7 @@
     max-width: 100%;
     height: auto;
     display: block;
-    margin-top: 5px;
+    margin: 20px 20px 0px 20px;
   }
 
   .flex {
@@ -129,11 +131,22 @@
     flex-direction: column;
   }
 
+  .deux-colonnes {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  ul {
+    margin-left: 20px;
+  }
+
   @media (min-width: 768px) {
     .flex {
-      margin-top: 10%;
       justify-content: space-evenly;
       flex-direction: row;
+    }
+    .deux-colonnes {
+      grid-template-columns: 1fr 1fr;
     }
     .images {
       max-width: 100%;
@@ -142,7 +155,7 @@
   }
 
   .content {
-    max-width: 400px;
+    margin-left: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 14px;
@@ -150,7 +163,6 @@
   }
 
   .images {
-    max-width: 50%;
     height: auto;
   }
 
@@ -158,7 +170,6 @@
     background-color: #e2dd77;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-left: 20px;
   }
 
   .title-container {
@@ -166,7 +177,6 @@
   }
 
   .texte {
-    max-width: 400px;
     padding: 10px;
     text-align: justify;
     color: #0c795c;

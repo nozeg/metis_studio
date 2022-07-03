@@ -16,7 +16,7 @@
   </a>
 
   <a class="links" href="/"> projets </a>
-  <a class="links" href="/about"> à propos </a>
+  <a class="links" href="/about3"> à propos </a>
   <a class="links" href="/contact"> contact </a>
   <a class="links" href="/outils"> outils </a>
 

@@ -12,11 +12,6 @@
       }
 
       .\32 c70962d-c748-4a86-a756-31c8a4135947 {
-        fill: white;
-        transition-property: fill;
-        transition-duration: 200ms;
-      }
-      svg:hover .\32 c70962d-c748-4a86-a756-31c8a4135947 {
         fill: #08795b;
       }
       .\33 6bbdade-8162-4400-8ae6-8f18cc090c60 {
@@ -27,7 +22,7 @@
       }
 
       .\39 e43e953-744c-4ffe-9976-2fbfdf2349fa {
-        fill: white;
+        fill: #d6e9d7;
         transition-property: fill;
         transition-duration: 200ms;
       }
