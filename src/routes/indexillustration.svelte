@@ -8,6 +8,12 @@
     <LogoTexte width="100%" />
   </div>
   <LienProjet
+    titre="GRE - Une histoire de grenouilles"
+    lien="/gre"
+    image="/gre/07.jpg"
+    colorbox="#576775"
+  />
+  <LienProjet
     titre="ISL - Islande, terre de contrastes"
     lien="/isl"
     image="/isl/01.jpg"
