@@ -9,6 +9,12 @@
   </div>
 
   <LienProjet
+    titre="CAB – Festival des Cabanes d’Annecy 2022 - Altitude"
+    lien="/cab"
+    image="/cab/02.jpg"
+    colorbox="#f2c8bf"
+  />
+  <LienProjet
     titre="VAL - Au fil de la Valserine"
     lien="/val"
     image="/val-img/27042022-DSC03941.jpg"
