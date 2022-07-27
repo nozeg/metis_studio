@@ -29,17 +29,17 @@
     <Tags>festival des cabanes ; architecture ; projet</Tags>
   </Description>
   <Content>
-    <Image src="/cab/06.jpg" alt="Metis studio" />
-    <Image src="/cab/01.jpg" alt="Metis studio" />
+    <Image src="/cab/12.jpg" alt="Metis studio" />
+    <Image src="/cab/1.jpg" alt="Metis studio" />
 
-    <Image src="/cab/00.jpg" alt="Metis studio" />
+    <Image src="/cab/13.jpg" alt="Metis studio" />
 
-    <Image src="/cab/05.jpg" alt="Metis studio" />
+    <Image src="/cab/14.jpg" alt="Metis studio" />
 
-    <Image src="/cab/02.jpg" alt="Metis studio" />
+    <Image src="/cab/15.jpg" alt="Metis studio" />
 
-    <Image src="/cab/03.jpg" alt="Metis studio" />
+    <Image src="/cab/16.jpg" alt="Metis studio" />
 
-    <Image src="/cab/07.jpg" alt="Metis studio" />
+    <Image src="/cab/17.jpg" alt="Metis studio" />
   </Content>
 </Layout>
