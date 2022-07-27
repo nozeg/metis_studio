@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-ee055ef4.js",
+    "file": "start-877d6cd1.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -24,7 +24,9 @@
       "src/routes/isl2.svelte",
       "src/routes/bel.svelte",
       "src/routes/cab.svelte",
+      "src/routes/gre.svelte",
       "src/routes/isl.svelte",
+      "src/routes/mer.svelte",
       "src/routes/sat.svelte",
       "src/routes/val.svelte"
     ]
@@ -65,7 +67,7 @@
     ]
   },
   "src/routes/indexillustration.svelte": {
-    "file": "pages/indexillustration.svelte-b6a0a2b0.js",
+    "file": "pages/indexillustration.svelte-953baae3.js",
     "src": "src/routes/indexillustration.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -206,8 +208,18 @@
     ]
   },
   "src/routes/cab.svelte": {
-    "file": "pages/cab.svelte-d00c6cd7.js",
+    "file": "pages/cab.svelte-66515205.js",
     "src": "src/routes/cab.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-981532c1.js",
+      "_Image-1695b8b4.js"
+    ]
+  },
+  "src/routes/gre.svelte": {
+    "file": "pages/gre.svelte-a5b92683.js",
+    "src": "src/routes/gre.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
@@ -218,6 +230,16 @@
   "src/routes/isl.svelte": {
     "file": "pages/isl.svelte-82884f76.js",
     "src": "src/routes/isl.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-981532c1.js",
+      "_Image-1695b8b4.js"
+    ]
+  },
+  "src/routes/mer.svelte": {
+    "file": "pages/mer.svelte-71095cc6.js",
+    "src": "src/routes/mer.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
