@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-d59488f2.js",
+    "file": "start-ee055ef4.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -13,6 +13,7 @@
       "src/routes/index.svelte",
       "src/routes/indexillustration.svelte",
       "src/routes/indexurbanisme.svelte",
+      "src/routes/closmasure.svelte",
       "src/routes/aquarelle.svelte",
       "src/routes/boutique.svelte",
       "src/routes/contact.svelte",
@@ -22,6 +23,7 @@
       "src/routes/projet.svelte",
       "src/routes/isl2.svelte",
       "src/routes/bel.svelte",
+      "src/routes/cab.svelte",
       "src/routes/isl.svelte",
       "src/routes/sat.svelte",
       "src/routes/val.svelte"
@@ -73,11 +75,11 @@
       "_LienProjet-2e9dbbd1.js"
     ],
     "css": [
-      "assets/pages/indexurbanisme.svelte-aeb7bc1b.css"
+      "assets/pages/indexillustration.svelte-45b7ae28.css"
     ]
   },
   "src/routes/indexurbanisme.svelte": {
-    "file": "pages/indexurbanisme.svelte-a34c359b.js",
+    "file": "pages/indexurbanisme.svelte-48cdd85b.js",
     "src": "src/routes/indexurbanisme.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -87,7 +89,17 @@
       "_LienProjet-2e9dbbd1.js"
     ],
     "css": [
-      "assets/pages/indexurbanisme.svelte-aeb7bc1b.css"
+      "assets/pages/indexillustration.svelte-45b7ae28.css"
+    ]
+  },
+  "src/routes/closmasure.svelte": {
+    "file": "pages/closmasure.svelte-4f9fb8d7.js",
+    "src": "src/routes/closmasure.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-981532c1.js",
+      "_Image-1695b8b4.js"
     ]
   },
   "src/routes/aquarelle.svelte": {
@@ -135,7 +147,7 @@
     ]
   },
   "src/routes/about3.svelte": {
-    "file": "pages/about3.svelte-50c609f4.js",
+    "file": "pages/about3.svelte-ca809102.js",
     "src": "src/routes/about3.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -186,6 +198,16 @@
   "src/routes/bel.svelte": {
     "file": "pages/bel.svelte-8a9494a0.js",
     "src": "src/routes/bel.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-981532c1.js",
+      "_Image-1695b8b4.js"
+    ]
+  },
+  "src/routes/cab.svelte": {
+    "file": "pages/cab.svelte-d00c6cd7.js",
+    "src": "src/routes/cab.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
