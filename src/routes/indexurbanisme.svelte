@@ -12,7 +12,7 @@
     titre="CAB – Festival des Cabanes d’Annecy 2022 - Altitude"
     lien="/cab"
     image="/cab/02.jpg"
-    colorbox="#f2c8bf"
+    colorbox="#576775"
   />
   <LienProjet
     titre="VAL - Au fil de la Valserine"
@@ -27,13 +27,6 @@
     lien="/bel"
     image="/bel-images/Hotel-de-ville-bleu.gif"
     colorbox="#788ea2"
-  />
-
-  <LienProjet
-    titre="AQU - Aquarelles du territoire"
-    lien="/aquarelle"
-    image="/aqu-images/Montagne_2jpg.jpg"
-    colorbox="#f2c8bf"
   />
 </div>
 

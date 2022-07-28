@@ -8,15 +8,28 @@
 
 <Layout>
   <Description titre="MER - La mer" wip>
-    A venir !
+    <p>
+      En 1946, Charles Trenet décrivait la mer après avoir regardé le paysage défiler à sa fenêtre
+      dans un train. Le premier couplet de sa chanson raisonne beaucoup avec la perception qu'on
+      peut avoir de la Manche en Normandie. Les ciels très changeants transforment la mer et la côte
+      à chaque instant. Les couleurs, les reflets décrits et la vie de ceux qui côtoient le bord de
+      mer est ici rendu en dessin.
+    </p>
+    <p>"La mer</p>
+    <p>Qu'on voit danser</p>
+    <p>Le long des golfes clairs</p>
+    <p>A des reflets d'argent</p>
+    <p>La mer</p>
+    <p>Des reflets changeants</p>
+    <p>Sous la pluie"</p>
 
-    <Tags>illustration ; islande ; carnet de voyage ; en cours</Tags>
+    <Tags>dessin à la main ; aquarelle ; illustrations pour enfant ;</Tags>
   </Description>
   <Content>
-    <Image src="/mer/02.jpg" alt="Metis studio" />
+    <Image src="/mer/1.jpg" alt="Metis studio" />
 
-    <Image src="/mer/01.jpg" alt="Metis studio" />
-    <Image src="/mer/03.jpg" alt="Metis studio" />
+    <Image src="/mer/2.jpg" alt="Metis studio" />
+    <Image src="/mer/3.jpg" alt="Metis studio" />
   </Content>
 </Layout>
 
