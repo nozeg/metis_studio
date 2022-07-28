@@ -14,13 +14,13 @@
     du temps. Allons-y ! Devenons les créateurs et mettons en perspective nos propres envies et
     obligations. Civisme social, amical, généreux et collaboratif, avec nos amis et nos parents.
     C’est comme cela que la vie en société se fait, c’est pourtant simple, vous comprenez ?
-    <div>Un projet à linitative d'Irene Gil López, Yoana Milian Lucas et Cédric Muller.</div>
-    <div>
+    <p>Un projet à linitative d'Irene Gil López, Yoana Milian Lucas et Cédric Muller.</p>
+    <p>
       Suivez les actualités d'Ecole Chantier ici : <a
         href="https://www.ecolechantier.ch"
         target="_blank">www.ecolechantier.ch</a
       >
-    </div>
+    </p>
 
     Photographies de Paola Corsini.
 

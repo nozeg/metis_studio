@@ -7,16 +7,18 @@
   <div class="home-logo">
     <LogoTexte width="100%" />
   </div>
+
+  <LienProjet titre="MER - La mer" lien="/mer" image="/mer/1.jpg" colorbox="#f2c8bf" />
   <LienProjet
-    titre="GRE - Une histoire de grenouilles"
-    lien="/gre"
-    image="/gre/07.jpg"
+    titre="ITI - Les motifs itinérants"
+    lien="/iti"
+    image="/isl/01.jpg"
     colorbox="#576775"
   />
   <LienProjet
-    titre="ISL - Islande, terre de contrastes"
-    lien="/isl"
-    image="/isl/01.jpg"
+    titre="GRE - Une histoire de grenouilles"
+    lien="/gre"
+    image="/gre/08.jpg"
     colorbox="#576775"
   />
 
