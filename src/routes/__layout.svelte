@@ -73,6 +73,7 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    overflow-x: hidden;
   }
   main {
     flex-grow: 1;
@@ -130,6 +131,9 @@
     .open .mobile-menu-toggle {
       transform: translate3d(264px, 0, 0);
     }
+    .open footer {
+      transform: translate3d(264px, 0, 0);
+    }
   }
 
   @media (min-width: 1025px) {
@@ -144,7 +148,11 @@
   }
 
   footer {
+    z-index: 10000;
+    line-height: 1px;
     max-width: 100%;
     bottom: 0;
+    transition: all 0.2s ease-in-out;
+    transform: translate3d(0, 0, 0);
   }
 </style>
