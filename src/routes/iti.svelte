@@ -13,7 +13,7 @@
     <Tags>illustration ; islande ; carnet de voyage ; en cours</Tags>
   </Description>
   <Content>
-    <Image src="/isl/ISL-02.svg" alt="Metis studio" />
+    <Image src="/isl/011.jpg" alt="Metis studio" />
     <Image src="/isl/Photos.png" alt="Metis studio" />
     <Image src="/isl/Photos2.png" alt="Metis studio" />
     <Image src="/isl/Photos3.png" alt="Metis studio" />
