@@ -7,6 +7,8 @@
   <div class="home-logo">
     <LogoTexte width="100%" />
   </div>
+  <LienProjet titre="" lien="" image="/inv-img/Cara-1.jpg" colorbox="#cbe0f3" />
+  <LienProjet titre="" lien="" image="/inv-img/inv-1-01-01.jpg" colorbox="#576775" />
 
   <LienProjet titre="MER - La mer" lien="/mer" image="/mer/1.jpg" colorbox="#f2c8bf" />
   <LienProjet
