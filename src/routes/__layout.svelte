@@ -8,10 +8,14 @@
 
   // mobile nav open
   let open = false;
+  const closeMenu = () => {
+    if (open) {
+      open = false;
+    }
+  };
   // close the menu on navigation
-  afterNavigate(() => {
-    open = false;
-  });
+  afterNavigate(closeMenu);
+  // close the menu on click outside of the menu
 </script>
 
 <svelte:head>
@@ -33,6 +37,7 @@
     <div class="nav-container">
       <Nav />
     </div>
+    <div class="nav-clickaway" on:click={closeMenu} />
   </div>
   <div class="main">
     <main>
@@ -92,6 +97,24 @@
     }
     .open .nav-container {
       transform: translate3d(264px, 0, 0);
+    }
+
+    .nav-clickaway {
+      pointer-events: none;
+      position: fixed;
+      z-index: 9999;
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      background-color: #555;
+      opacity: 0;
+      transition-property: opacity;
+      transition-duration: 200ms;
+    }
+    .open .nav-clickaway {
+      pointer-events: all;
+      opacity: 0.7;
     }
     .mobile-menu-toggle {
       position: fixed;

@@ -7,15 +7,15 @@
 </script>
 
 <nav>
-  <a class="logo-texte-container" href="/">
+  <a class="logo-texte-container" href="/" sveltekit:prefetch>
     <LogoTexte />
   </a>
 
-  <a class="logo-texte-mobile-container" href="/">
+  <a class="logo-texte-mobile-container" href="/" sveltekit:prefetch>
     <LogoTexteMobile />
   </a>
 
-  <a class="links" href="/"> projets </a>
+  <a class="links" href="/" sveltekit:prefetch> projets </a>
   <a class="links" href="/about3"> à propos </a>
   <a class="links" href="/contact"> contact </a>
   <a class="links" href="/outils"> outils </a>
