@@ -29,9 +29,10 @@
   <Content>
     <Image src="/sat-img/01.jpg" alt="Metis studio" />
     <Image src="/sat-img/02.jpg" alt="Metis studio" />
+    <Image src="/sat-img/05.jpg" alt="Metis studio" />
+
     <Image src="/sat-img/03.jpg" alt="Metis studio" />
     <Image src="/sat-img/04.jpg" alt="Metis studio" />
-    <Image src="/sat-img/05.jpg" alt="Metis studio" />
     <Image src="/sat-img/06.jpg" alt="Metis studio" />
   </Content>
 </Layout>
