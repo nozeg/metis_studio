@@ -28,6 +28,8 @@
     image="/bel-images/Hotel-de-ville-bleu.gif"
     colorbox="#788ea2"
   />
+
+  <LienProjet titre="" lien="" image="/coll/Collage-GP.jpeg" colorbox="#f39986" />
 </div>
 
 <style>
