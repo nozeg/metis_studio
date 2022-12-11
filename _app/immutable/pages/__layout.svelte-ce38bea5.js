@@ -1,4 +1,4 @@
-import{S as a0,i as t0,s as c0,F as s,u as O1,G as l,p as c,v as Q1,h as t,q as e,b as K1,H as a,n as c1,l as S,x as W1,a as T1,m as O,y as X1,c as F1,z as Y1,f as G1,t as J1,C as e0,I as M0,J as $0,K as V0,L as q0,M as I0,N as j0,O as H0,P as L0,r as y0,Q as B0,R as D0,T as N0,U as T0}from"../chunks/index-cbb028b2.js";import{L as F0}from"../chunks/LogoTexte-752e5fff.js";import{c as l0}from"../chunks/singletons-eca981c1.js";function P0(q){let o,f,h,m,d,g,r,p;return{c(){o=s("svg"),f=s("defs"),h=s("style"),m=O1(`.a {
+import{S as a0,i as t0,s as c0,F as s,u as O1,G as l,p as c,v as Q1,h as t,q as e,b as K1,H as a,n as c1,l as S,x as W1,a as T1,m as O,y as X1,c as F1,z as Y1,f as G1,t as J1,C as e0,I as M0,J as $0,K as V0,L as q0,M as I0,N as j0,O as H0,P as L0,r as y0,Q as B0,R as D0,T as N0,U as T0}from"../chunks/index-82ee1fab.js";import{L as F0}from"../chunks/LogoTexte-03505437.js";import{c as l0}from"../chunks/singletons-eca981c1.js";function P0(q){let o,f,h,m,d,g,r,p;return{c(){o=s("svg"),f=s("defs"),h=s("style"),m=O1(`.a {
         fill: #ff5959;
       }
       .b {
