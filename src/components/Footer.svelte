@@ -37,7 +37,7 @@
         fill: #0c795c;
       }
     </style></defs
-  ><title>Footer-39</title><g id="09382edc-9cdb-4b81-b83c-fee1cbbc713b" data-name="Dessin"
+  ><g id="09382edc-9cdb-4b81-b83c-fee1cbbc713b" data-name="Dessin"
     ><path
       class="7c0a56d7-ac04-4c5e-a06b-7d65b20a1b69"
       d="M871.8075,142.2958A907.2917,907.2917,0,0,0,1014.158,101.234,908.8746,908.8746,0,0,0,1194.1847,8.7877l2.0532,166.5918Z"
