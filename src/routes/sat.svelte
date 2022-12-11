@@ -4,6 +4,7 @@
   import Tags from '$components/projets/Tags.svelte';
   import Layout from '$components/projets/Layout.svelte';
   import Image from '$components/projets/Image.svelte';
+  import Map from '$components/Map.svelte';
 </script>
 
 <Layout>
@@ -25,13 +26,19 @@
     Photographies de Paola Corsini.
 
     <Tags>outil de médiation ; satigny ; enfants ; école ; processus participatif ; en cours</Tags>
+    <Map
+      mapCenter={[46.21803875669701, 6.030364858651818]}
+      mapMarker={[46.21803875669701, 6.030364858651818]}
+      mapZoom={17}
+    />
   </Description>
   <Content>
     <Image src="/sat-img/01.jpg" alt="Metis studio" />
     <Image src="/sat-img/02.jpg" alt="Metis studio" />
+    <Image src="/sat-img/05.jpg" alt="Metis studio" />
+
     <Image src="/sat-img/03.jpg" alt="Metis studio" />
     <Image src="/sat-img/04.jpg" alt="Metis studio" />
-    <Image src="/sat-img/05.jpg" alt="Metis studio" />
     <Image src="/sat-img/06.jpg" alt="Metis studio" />
   </Content>
 </Layout>

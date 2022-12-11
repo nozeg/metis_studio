@@ -8,19 +8,21 @@
 
 <Layout>
   <Description titre="ITI - Les motifs itinérants" wip>
-    A venir !
+    Une collection de motifs réalisés à la suite de promenades ou voyages. Tout est source
+    d’inspiration et particulièrement la faune et la flore qu’on peut trouver dans les lieux du
+    quotidien : une fissure dans le goudron accueillera quelques tiges de pissenlit, une
+    anfractuosité dans un mur abritera une nichée de mésanges… Il suffit juste d'ouvrir les yeux !
 
+    <p>Et puisqu'il est important de se projeter, les motifs se font aussi support.</p>
     <Tags>illustration ; islande ; carnet de voyage ; en cours</Tags>
   </Description>
   <Content>
-    <Image src="/isl/011.jpg" alt="Metis studio" />
-    <Image src="/isl/Photos.png" alt="Metis studio" />
-    <Image src="/isl/Photos2.png" alt="Metis studio" />
-    <Image src="/isl/Photos3.png" alt="Metis studio" />
-    <Image src="/isl/Photos4.png" alt="Metis studio" />
+    <Image src="/isl/Fleurs-motifs-02.jpg" alt="Metis studio" />
+    <Image src="/isl/Fleurs-motifs-livre.jpg" alt="Metis studio" />
     <Image src="/isl/03.jpg" alt="Metis studio" />
+    <Image src="/isl/02-livre.jpg" alt="Metis studio" />
     <Image src="/isl/01.jpg" alt="Metis studio" />
-    <Image src="/isl/02.jpg" alt="Metis studio" />
+    <Image src="/isl/03-livre.jpg" alt="Metis studio" />
   </Content>
 </Layout>
 
