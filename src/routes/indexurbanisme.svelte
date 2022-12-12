@@ -7,7 +7,12 @@
   <div class="home-logo">
     <LogoTexte width="100%" />
   </div>
-
+  <LienProjet
+    titre="SAT2 – Histoires courtes de Satigny"
+    lien="/sat-2"
+    image="/sat-2/01-2.jpg"
+    colorbox="#788ea2"
+  />
   <LienProjet
     titre="CAB – Festival des Cabanes d’Annecy 2022 - Altitude"
     lien="/cab"
