@@ -7,6 +7,9 @@
   <div class="home-logo">
     <LogoTexte width="100%" />
   </div>
+
+  <LienProjet titre="" lien="" image="/Petite-fille.gif" colorbox="#cbe0f3" />
+
   <LienProjet
     titre="INV - Les villes invisibles"
     lien="/inv"
