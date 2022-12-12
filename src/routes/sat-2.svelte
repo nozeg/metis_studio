@@ -10,7 +10,7 @@
 <Layout>
   <Description titre="SATIMINI - Histoires courtes de Satigny - Ecole chantier" wip>
     <p>
-      Peut-être l’avez-vous vu : fin septembre, les élèves de l’École Mairie ont peint une fresque
+      Peut-être l’avez-vous vu : fin septembre, les élèves de l’École-Mairie ont peint une fresque
       géante sur le chemin de leur école transitoire. Cette fresque fait écho à la belle vue et à
       l’ambiance de Satigny, propice à la contemplation.
     </p>
