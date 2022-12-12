@@ -4,6 +4,7 @@
   import Tags from '$components/projets/Tags.svelte';
   import Layout from '$components/projets/Layout.svelte';
   import Image from '$components/projets/Image.svelte';
+  import Map from '$components/Map.svelte';
 </script>
 
 <Layout>
@@ -18,6 +19,11 @@
     infinies ! L'objectif de cette cartographie est de proposer des parcours aux promeneurs grâce à
     un dépliant ou une carte interactive (en cours de développement).
     <Tags>outil de médiation ; valserine ; cartographie ; paysages ; dépliant ; en cours</Tags>
+    <Map
+      mapCenter={[46.15120995438802, 5.804625817346062]}
+      mapMarker={[46.15120995438802, 5.804625817346062]}
+      mapZoom={11}
+    />
   </Description>
   <Content>
     <Image src="/val-img/DSC03197-01.jpg" alt="Metis studio" />

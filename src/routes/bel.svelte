@@ -4,6 +4,7 @@
   import Tags from '$components/projets/Tags.svelte';
   import Layout from '$components/projets/Layout.svelte';
   import Image from '$components/projets/Image.svelte';
+  import Map from '$components/Map.svelte';
 </script>
 
 <Layout>
@@ -21,6 +22,13 @@
       outil de médiation ; centre-ville ; cartographie ; architecture ; dépliant ; affiches ; en
       cours
     </Tags>
+    <div>
+      <Map
+        mapCenter={[46.107456478271715, 5.825928852265028]}
+        mapMarker={[46.107456478271715, 5.825928852265028]}
+        mapZoom={11}
+      />
+    </div>
   </Description>
   <Content>
     <Image src="/bel-images/DSC03922-web.jpg" alt="Metis studio" />

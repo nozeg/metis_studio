@@ -4,6 +4,7 @@
   import Tags from '$components/projets/Tags.svelte';
   import Layout from '$components/projets/Layout.svelte';
   import Image from '$components/projets/Image.svelte';
+  import Map from '$components/Map.svelte';
 </script>
 
 <Layout>
@@ -27,6 +28,11 @@
     </p>
 
     <Tags>festival des cabanes ; architecture ; projet</Tags>
+    <Map
+      mapCenter={[45.75759438288195, 6.218488760617977]}
+      mapMarker={[45.75759438288195, 6.218488760617977]}
+      mapZoom={11}
+    />
   </Description>
   <Content>
     <Image src="/cab/12.jpg" alt="Metis studio" />

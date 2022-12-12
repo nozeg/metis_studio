@@ -20,26 +20,12 @@
       Mairie de Satigny. Ce n’est pas tout ! Ils ont également enregistré des histoires touchantes
       et émouvantes, sous la forme de poèmes que vous pourrez directement écouter pendant votre
       balade grâce à des codes QR. Au total, ce sont sept classes d’élèves qui ont participé à cette
-      magnifique exposition en plein air, dirigés par les enseignants en arts plastiques Laure
-      Fontana et Raphael Bernardez. Cette aventure n’aurait pas été possible sans la bienveillante
-      aide de Mme Sabrine Paracchini, directrice des établissements du Mandement, la collaboration
-      active de l’équipe de la cohésion sociale ainsi que la disponibilité permanente des équipes
-      liées aux infrastructures de la commune.Pour fêter cette occasion, nous avons organisé le
-      samedi 15 octobre à la salle Montfleury un apéritif «fresque mais en mini», où les convives
-      pouvaient prendre un bout de trottoir (une focaccia onctueuse à la couleur noire) afin de
-      réaliser et manger quelques fresques gourmandes.
+      magnifique exposition en plein air. Pour fêter cette occasion, nous avons organisé le samedi
+      15 octobre à la salle Montfleury un apéritif «fresque mais en mini», où les convives pouvaient
+      prendre un bout de trottoir (une focaccia onctueuse à la couleur noire) afin de réaliser et
+      manger quelques fresques gourmandes.
     </p>
-    <p>
-      De nombreuses personnes ont fait le déplacement et l’ambiance était colorée et conviviale.
-      Nous remercions toutes et tous les participants pour leur présence dans la première
-      intervention du processus participatif ! Le prochain rendez-vous École Chantier est agendé en
-      début Avril 2023 et sera l’occasion de réaliser une sculpture en forme de mosaïque avec des
-      morceaux de l’ancienne école. Cette œuvre collective sera ensuite intégrée à la nouvelle école
-      et sera l’empreinte du temps qui s’écoule au rythme scolaire. Il y aura également un événement
-      - exposition où vous pourrez toutes et tous participer et créer votre sculpture gastronomique.
-      Nous nous réjouissons de vous retrouver et vous souhaitons de magnifiques fêtes de fin d’année
-      !
-    </p>
+
     <p>Un projet à linitative d'Irene Gil López, Yoana Milian Lucas et Cédric Muller.</p>
     <p>
       Suivez les actualités d'Ecole Chantier ici : <a
@@ -65,7 +51,6 @@
     <Image src="/sat-2/02-2.jpg" alt="Metis studio" />
     <Image src="/sat-2/03-1.jpg" alt="Metis studio" />
     <Image src="/sat-2/02-4.jpg" alt="Metis studio" />
-    <Image src="/sat-2/03-1.jpg" alt="Metis studio" />
     <Image src="/sat-2/03-2.jpg" alt="Metis studio" />
     <Image src="/sat-2/03-3.jpg" alt="Metis studio" />
     <Image src="/sat-2/03-4.jpg" alt="Metis studio" />
