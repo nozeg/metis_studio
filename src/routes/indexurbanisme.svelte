@@ -25,7 +25,7 @@
     image="/val-img/27042022-DSC03941.jpg"
     colorbox="#f39986"
   />
-  <LienProjet titre="SAT - Ecole chantier" lien="/sat" image="/sat-img/EC.png" colorbox="#e6b399" />
+  <LienProjet titre="SAT - Ecole chantier" lien="/sat" image="/sat-img/06.jpg" colorbox="#e6b399" />
 
   <LienProjet
     titre="BEL - Bellegarde Art Déco"
@@ -34,7 +34,7 @@
     colorbox="#788ea2"
   />
 
-  <LienProjet titre="" lien="" image="/coll/Collage-GP.jpeg" colorbox="#f39986" />
+  <LienProjet titre="" lien="" image="/coll/Collage-GP.jpeg" colorbox="none" />
 </div>
 
 <style>
