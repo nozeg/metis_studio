@@ -8,7 +8,9 @@
     <LogoTexte width="100%" />
   </div>
 
-  <LienProjet titre="" lien="" image="/Petite-fille.gif" colorbox="#cbe0f3" />
+  <LienProjet titre="" lien="" image="/Montgolfiere4.jpg" colorbox="none" />
+
+  <LienProjet titre="" lien="" image="/Petite-fille.gif" colorbox="none" />
 
   <LienProjet
     titre="INV - Les villes invisibles"
@@ -63,9 +65,9 @@
     image="/gre/08.jpg"
     colorbox="#576775"
   />
-  <LienProjet titre="" lien="" image="/inv-img/cagette.png" colorbox="#cbe0f3" />
+  <LienProjet titre="" lien="" image="/inv-img/cagette.png" colorbox="none" />
 
-  <LienProjet titre="" lien="" image="/Icone_maison-infini.gif" colorbox="#cbe0f3" />
+  <LienProjet titre="" lien="" image="/Icone_maison-infini.gif" colorbox="none" />
   <LienProjet
     titre="INV - Les villes invisibles"
     lien="/inv"
