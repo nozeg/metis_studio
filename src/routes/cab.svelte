@@ -27,7 +27,6 @@
       >.
     </p>
 
-    <Tags>festival des cabanes ; architecture ; projet</Tags>
     <Map
       mapCenter={[45.75759438288195, 6.218488760617977]}
       mapMarker={[45.75759438288195, 6.218488760617977]}

@@ -34,9 +34,6 @@
       >
     </p>
 
-    Photographies de Paola Corsini.
-
-    <Tags>outil de médiation ; satigny ; enfants ; école ; processus participatif ; en cours</Tags>
     <Map
       mapCenter={[46.21803875669701, 6.030364858651818]}
       mapMarker={[46.21803875669701, 6.030364858651818]}
