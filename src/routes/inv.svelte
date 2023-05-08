@@ -20,7 +20,6 @@
       villes, oui, mais aussi voyager en soi-même !
     </p>
 
-    <Tags>illustrations ; villes ; en cours</Tags>
   </Description>
   <Content>
     <Image src="/inv-img/Ville.gif" alt="Metis studio" />
