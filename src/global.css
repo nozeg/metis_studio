@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'quicksand';
+  font-family: 'SuisseIntl-Book';
   font-weight: 400;
-  src: url('/fonts/quicksand/Quicksand-Regular.ttf');
+  src: url('/fonts/SuisseIntl-Book.otf');
 }
 @font-face {
   font-family: 'quicksand';
@@ -27,10 +27,10 @@ body {
 
 * {
   box-sizing: border-box;
-  font-family: quicksand, sans-serif;
+  font-family: SuisseIntl-Book, sans-serif;
   font-weight: 400;
 }
 
 a {
-  color: #007d5e;
+  color: #0bac81;
 }

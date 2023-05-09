@@ -15,13 +15,38 @@
 </div>
 <div class="boite-choix">
   <div class="deux-colonnes">
-    <a class="petit-titre" href="/indexurbanisme">Urbanisme et médiation</a>
-    <a class="texte-aligne-droite petit-titre" href="/indexillustration">Illustration</a>
+    <div>
+      <div class="petit-titre">
+        <a class="souligne" href="/indexurbanisme">Urbanisme et médiation</a>
+      </div>
+    </div>
+    <a class="texte-aligne-droite petit-titre souligne" href="/indexillustration">Illustration</a>
   </div>
 </div>
 <img class="image" src="/sat-2/01-2.jpg" alt="Metis studio" />
 <img class="image" src="/sat-2/01-2.jpg" alt="Metis studio" />
 <img class="image" id="next" src="/sat-2/01-2.jpg" alt="Metis studio" />
+
+<div class="boite-choix-fin texte-centre">
+  <div class="deux-colonnes-fin">
+    <div>
+      <div class="petit-titre trait">
+        <a class="souligne" href="/indexurbanisme">Ecrivez-nous</a>
+      </div>
+    </div>
+    <a class="texte-centre petit-titre souligne" href="/indexillustration">PROJETS</a>
+    <a class="texte-centre petit-titre souligne" href="/about3">A PROPOS</a>
+    <a class="texte-centre petit-titre souligne" href="/outils">OUTILS</a>
+    <a class="texte-centre petit-titre souligne" href="/contact">CONTACT</a>
+  </div>
+</div>
+
+<div class="footer deux-colonnes petit-titre-fin">
+  <div>nour.metis.studio@gmail.com</div>
+  <div class="texte-aligne-droite">
+    <div>© métis studio 2023</div>
+  </div>
+</div>
 
 <!-- <span class="arrowAni">up</span> -->
 <style>
@@ -42,6 +67,7 @@
     padding-top: 4em;
     padding-left: 4em;
     padding-right: 4em;
+    padding-bottom: 2em;
     z-index: 2;
     position: relative;
     border: 0 solid #333;
@@ -69,6 +95,17 @@
     text-decoration: none;
   }
 
+  .petit-titre-fin {
+    font-family: SuisseIntl-Book;
+    color: #fff;
+    line-height: 1em;
+    display: block;
+    font-size: 1em;
+    font-weight: 50;
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+
   .gros-titre {
     font-family: QanelasSoftDEMO-ExtraBold;
     color: #0bac81;
@@ -85,8 +122,7 @@
   }
 
   .boite-choix {
-    border-color: #0bac81;
-    border-bottom: 0.05em solid;
+    border-bottom: 0.05em solid #0bac81;
     width: auto;
     padding-left: 4em;
     padding-right: 4em;
@@ -94,13 +130,36 @@
     padding-bottom: 1em;
   }
 
+  .boite-choix-fin {
+    border-top: 0.05em solid #0bac81;
+    border-bottom: 0.05em solid #0bac81;
+    width: auto;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  .trait {
+    border-right: 0.05em solid #0bac81;
+  }
+
   .deux-colonnes {
     display: grid;
     grid-template-columns: 2fr 2fr;
   }
 
+  .deux-colonnes-fin {
+    display: grid;
+    grid-template-columns: 33.33% 16.665% 16.665% 16.665% 16.665%;
+  }
+
   .texte-aligne-droite {
     justify-self: right;
+  }
+
+  .texte-centre {
+    justify-self: center;
   }
 
   .body {
@@ -190,5 +249,45 @@
       border: solid 0px none;
       border-radius: 50%;
     }
+  }
+
+  .footer {
+    padding-top: 8em !important;
+    padding-bottom: 4em !important;
+    background-color: #0bac81;
+  }
+
+  .souligne {
+    position: relative;
+    text-decoration: none;
+  }
+
+  .souligne::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 3px;
+    background-color: #0bac81;
+    bottom: -0.5em;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .souligne:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+
+  /* Presentational Styles */
+  body {
+    display: grid;
+    font-family: SuisseIntl-Book;
+    font-size: 27px;
+    font-weight: 700;
+    height: 100vh;
+    place-items: center;
   }
 </style>
