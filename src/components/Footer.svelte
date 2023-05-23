@@ -1,3 +1,7 @@
+<script>
+  import Email from './Email.svelte';
+</script>
+
 <div class="boite-choix-fin texte-centre">
   <div class="deux-colonnes-fin nav">
     <div class="petit-titre trait nav-conteneur">
@@ -19,7 +23,9 @@
 </div>
 
 <div class="footer deux-colonnes petit-titre-fin">
-  <div>nour.metis.studio@gmail.com</div>
+  <div>
+    <div class="email souligne"><Email /></div>
+  </div>
   <div class="texte-aligne-droite">
     <div>© métis studio 2023</div>
   </div>
@@ -114,5 +120,13 @@
   .souligne:hover::before {
     transform-origin: left;
     transform: scaleX(1);
+  }
+
+  .email {
+    display: inline-block;
+  }
+
+  .email.souligne::before {
+    background-color: white;
   }
 </style>
