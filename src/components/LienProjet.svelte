@@ -2,16 +2,15 @@
   export let titre;
   export let lien;
   export let image;
-  export let colorbox;
-  import Bulle from './Bulle.svelte';
+  import Imagefond from './imagefond.svelte';
 </script>
 
-<a class="projetINV" href={lien} style="--Colorprojet:{colorbox}">
+<a class="projetINV" href={lien}>
   <span class="img-container">
     <img src={image} alt={titre} />
   </span>
   <div class="bulle-container">
-    <Bulle />
+    <slot />
     <span class="title">{titre}</span>
   </div>
 </a>
@@ -19,31 +18,29 @@
 <style>
   .projetINV {
     position: relative;
-    width: min(333px, calc(100vw - 40px));
-    height: min(333px, calc(100vw - 40px));
+    width: 100%;
     text-decoration: none;
-    margin: 20px;
   }
 
   .img-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
   }
 
   img {
     max-height: 100%;
     max-width: 100%;
     margin: 0px auto;
+    transition-property: opacity;
+    transition-duration: 250ms;
   }
 
   .bulle-container {
     opacity: 0;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
     transition-property: opacity;
     transition-duration: 250ms;
   }
@@ -52,17 +49,19 @@
     .projetINV:hover .bulle-container {
       opacity: 1;
     }
+
+    .projetINV:hover img {
+      opacity: 0;
+    }
   }
 
   .title {
-    color: white;
+    color: #007d5e;
     align-self: flex-end;
-    font-size: 14px;
+    font-family: QanelasSoftDEMO-ExtraBold;
+    font-size: 20px;
     font-weight: 800;
     position: absolute;
-    bottom: 150px;
-    left: 0px;
-    right: 0px;
-    text-align: center;
+    bottom: 0px;
   }
 </style>

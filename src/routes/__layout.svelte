@@ -23,15 +23,17 @@
 </svelte:head>
 
 <div class="layout" class:open>
-  <div class="mobile-menu-toggle">
-    <Hamburger
-      bind:open
-      type="minus"
-      --color="#0bac81"
-      --layer-width="20px"
-      --layer-spacing="4px"
-      --layer-height="1.5px"
-    />
+  <div class="top-bar">
+    <div class="mobile-menu-toggle">
+      <Hamburger
+        bind:open
+        type="minus"
+        --color="#0bac81"
+        --layer-width="20px"
+        --layer-spacing="4px"
+        --layer-height="1.5px"
+      />
+    </div>
   </div>
   <div class="nav-spacer">
     <div class="nav-container">
@@ -50,21 +52,6 @@
 </div>
 
 <style>
-  .nav-container {
-    background-color: white;
-    position: fixed;
-    z-index: 10000;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    width: 264px;
-  }
-  .nav-spacer {
-    width: 264px;
-    min-height: 264px;
-    flex-shrink: 0;
-  }
-
   .layout {
     display: flex;
     min-height: 100vh;
@@ -81,14 +68,11 @@
     flex-direction: column;
   }
 
-  .nav-spacer {
-    width: 0px;
-  }
   .nav-container {
     background-color: white;
     position: fixed;
     z-index: 10000;
-    top: -264px;
+    top: -184px;
     height: 264px;
     left: 0px;
     right: 0px;
@@ -97,7 +81,7 @@
     transform: translate3d(0, 0, 0);
   }
   .open .nav-container {
-    transform: translate3d(0, 264px, 0);
+    transform: translate3d(0, 184px, 0);
   }
 
   .nav-clickaway {
@@ -127,6 +111,10 @@
     background-color: white;
     border: 1px solid #0bac81;
     border-radius: 40px;
+  }
+
+  .open .top-bar {
+    background-color: transparent;
   }
 
   footer {

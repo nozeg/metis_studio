@@ -1,4 +1,6 @@
 <script>
+  import Imagefond from '$components/imagefond.svelte';
+  import LienProjet from '$components/LienProjet.svelte';
   import Logonew from '$components/Logonew.svelte';
   import Image from '$components/projets/Image.svelte';
 </script>
@@ -13,7 +15,7 @@
     <a class="arrow" href="#next" />
   </div>
 </div>
-<div class="boite-choix">
+<div class="boite-choix" id="next">
   <div class="deux-colonnes">
     <div>
       <div class="petit-titre">
@@ -25,6 +27,9 @@
 </div>
 <div class="galerie">
   <div class="galerie-colonnes">
+    <LienProjet image="/sat-2/01-2.jpg" titre="bonjour" lien="/">
+      <Imagefond />
+    </LienProjet>
     <img class="image" src="/sat-2/01-2.jpg" alt="Metis studio" />
     <img class="image" src="/sat-2/01-2.jpg" alt="Metis studio" />
   </div>
@@ -40,7 +45,7 @@
     max-width: 50px;
   }
   .header {
-    padding-top: 8em;
+    padding-top: 8.5em;
     padding-left: 4em;
     padding-right: 4em;
     margin-top: -5.5em;
