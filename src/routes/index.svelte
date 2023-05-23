@@ -1,4 +1,5 @@
 <script>
+  import Fenetrebourdons from '$components/Fenetrebourdons.svelte';
   import Imagefond from '$components/imagefond.svelte';
   import LienProjet from '$components/LienProjet.svelte';
   import Logonew from '$components/Logonew.svelte';
@@ -27,15 +28,35 @@
 </div>
 <div class="galerie">
   <div class="galerie-colonnes">
-    <LienProjet image="/sat-2/01-2.jpg" titre="bonjour" lien="/">
+    <LienProjet
+      image="/sat-2/01-2.jpg"
+      titre="Satimini, histoires courtes de Satigny"
+      lien="/sat-2"
+    >
       <Imagefond />
     </LienProjet>
-    <img class="image" src="/sat-2/01-2.jpg" alt="Metis studio" />
-    <img class="image" src="/sat-2/01-2.jpg" alt="Metis studio" />
+    <LienProjet image="/val-img/27042022-DSC03941.jpg" titre="Le long de la Valserine" lien="/val">
+      <Imagefond />
+    </LienProjet>
+    <LienProjet
+      image="/cab/02.jpg"
+      titre="Festival des Cabanes d’Annecy 2022, Altitude"
+      lien="/cab"
+    >
+      <Imagefond />
+    </LienProjet>
   </div>
   <div class="galerie-colonnes">
-    <img class="image" src="/sat-2/01-2.jpg" alt="Metis studio" />
-    <img class="image" src="/sat-2/01-2.jpg" alt="Metis studio" />
+    <LienProjet image="/inv-img/Cara-1.jpg" titre="Les villes invisibles" lien="/inv">
+      <Imagefond />
+    </LienProjet>
+    <LienProjet image="/sat-img/06.jpg" titre="Ecole chantier, Billard Fin !" lien="/sat">
+      <Imagefond />
+    </LienProjet>
+    <Fenetrebourdons />
+    <LienProjet image="/bel-images/Hotel-de-ville-bleu.gif" titre="Bellegarde Art Deco" lien="/bel">
+      <Imagefond />
+    </LienProjet>
   </div>
 </div>
 
