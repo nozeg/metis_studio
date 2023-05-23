@@ -27,7 +27,7 @@
     <Hamburger
       bind:open
       type="minus"
-      --color="#37553e"
+      --color="#0bac81"
       --layer-width="20px"
       --layer-spacing="4px"
       --layer-height="1.5px"
@@ -81,70 +81,58 @@
     flex-direction: column;
   }
 
-  @media (max-width: 1024px) {
-    .nav-spacer {
-      width: 0px;
-    }
-    .nav-container {
-      background-color: white;
-      position: fixed;
-      z-index: 10000;
-      top: 0px;
-      bottom: 0px;
-      left: -264px;
-      width: 264px;
-      transition: transform 0.2s ease-in-out;
-      transform: translate3d(0, 0, 0);
-    }
-    .open .nav-container {
-      transform: translate3d(264px, 0, 0);
-    }
-
-    .nav-clickaway {
-      pointer-events: none;
-      position: fixed;
-      z-index: 9999;
-      top: 0px;
-      bottom: 0px;
-      left: 0px;
-      right: 0px;
-      background-color: #555;
-      opacity: 0;
-      transition-property: opacity;
-      transition-duration: 200ms;
-    }
-    .open .nav-clickaway {
-      pointer-events: all;
-      opacity: 0.7;
-    }
-    .mobile-menu-toggle {
-      position: fixed;
-      top: 16px;
-      left: 16px;
-      z-index: 11000;
-      transition: all 0.2s ease-in-out;
-      transform: translate3d(0, 0, 0);
-      background-color: white;
-      border-radius: 40px;
-    }
-
-    .open .mobile-menu-toggle {
-      transform: translate3d(264px, 0, 0);
-    }
-    .open footer {
-      transform: translate3d(264px, 0, 0);
-    }
+  .nav-spacer {
+    width: 0px;
+  }
+  .nav-container {
+    background-color: white;
+    position: fixed;
+    z-index: 10000;
+    top: 0px;
+    bottom: 0px;
+    left: -264px;
+    width: 264px;
+    transition: transform 0.2s ease-in-out;
+    transform: translate3d(0, 0, 0);
+  }
+  .open .nav-container {
+    transform: translate3d(264px, 0, 0);
   }
 
-  @media (min-width: 1025px) {
-    .nav-container {
-      width: 264px;
-      min-height: 264px;
-      flex-shrink: 0;
-    }
-    .mobile-menu-toggle {
-      display: none;
-    }
+  .nav-clickaway {
+    pointer-events: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #555;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 200ms;
+  }
+  .open .nav-clickaway {
+    pointer-events: all;
+    opacity: 0.7;
+  }
+  .mobile-menu-toggle {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 11000;
+    transition: all 0.2s ease-in-out;
+    transform: translate3d(0, 0, 0);
+    background-color: white;
+    border: 1px solid #0bac81;
+    border-radius: 40px;
+  }
+
+  .open .mobile-menu-toggle {
+    transform: translate3d(264px, 0, 0);
+  }
+  .open footer {
+    transform: translate3d(264px, 0, 0);
   }
 
   footer {
