@@ -2,13 +2,13 @@
   ><defs
     ><style>
       .a {
-        fill: #ff5959;
+        fill: #0bac81;
       }
       .b {
         fill: #fff;
       }
       .c {
-        fill: #ff5959;
+        fill: #0bac81;
       }
     </style></defs
   ><circle class="a" cx="14.4589" cy="14.4453" r="14.5" /><path

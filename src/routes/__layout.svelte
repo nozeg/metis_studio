@@ -88,15 +88,16 @@
     background-color: white;
     position: fixed;
     z-index: 10000;
-    top: 0px;
-    bottom: 0px;
-    left: -264px;
-    width: 264px;
+    top: -264px;
+    height: 264px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
     transition: transform 0.2s ease-in-out;
     transform: translate3d(0, 0, 0);
   }
   .open .nav-container {
-    transform: translate3d(264px, 0, 0);
+    transform: translate3d(0, 264px, 0);
   }
 
   .nav-clickaway {
@@ -128,15 +129,8 @@
     border-radius: 40px;
   }
 
-  .open .mobile-menu-toggle {
-    transform: translate3d(264px, 0, 0);
-  }
-  .open footer {
-    transform: translate3d(264px, 0, 0);
-  }
-
   footer {
-    z-index: 10000;
+    z-index: 9000;
     line-height: 1px;
     max-width: 100%;
     bottom: 0;
