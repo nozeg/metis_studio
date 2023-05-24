@@ -1,10 +1,12 @@
-<div class="content">
+<div class="galerie-colonnes">
   <slot />
 </div>
 
 <style>
-  .content {
-    flex-grow: 1;
-    text-align: center;
+  .galerie-colonnes {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    margin: 4rem;
   }
 </style>

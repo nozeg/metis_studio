@@ -58,7 +58,7 @@
     font-weight: 700;
     color: #a7802e;
     margin-top: 50px;
-    margin-bottom: 500px;
+    margin-bottom: 600px;
   }
 
   img {

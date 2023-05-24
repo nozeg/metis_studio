@@ -7,9 +7,11 @@
     display: flex;
     flex-direction: column;
   }
-  @media (min-width: 768px) {
-    .flex {
-      flex-direction: row;
-    }
+
+  .galerie-colonnes {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    margin: 4rem;
   }
 </style>

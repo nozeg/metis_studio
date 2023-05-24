@@ -7,7 +7,7 @@
 </script>
 
 <Layout>
-  <Description titre="INV - Les villes invisibles" wip>
+  <Description titre="Les villes invisibles" wip>
     Cette série d’illustrations s’inspire du livre Les Villes invisibles (Le città invisibili),
     roman d'Italo Calvino.
     <p>
@@ -19,15 +19,19 @@
       projet. Voyager à travers le monde, comme a pu le faire Marco Polo lors de sa découverte des
       villes, oui, mais aussi voyager en soi-même !
     </p>
-
   </Description>
   <Content>
-    <Image src="/inv-img/Ville.gif" alt="Metis studio" />
-    <Image src="/inv-img/Cabane.jpg" alt="Metis studio" />
-    <Image src="/inv-img/Maison.jpg" alt="Metis studio" />
-    <Image src="/inv-img/Arche.jpg" alt="Metis studio" />
-    <Image src="/inv-img/Cara-1.jpg" alt="Metis studio" />
-    <Image src="/inv-img/Cara-2.jpg" alt="Metis studio" />
-    <Image src="/inv-img/inv-1-01-01.jpg" alt="Metis studio" />
+    <div>
+      <Image src="/inv-img/Ville.gif" alt="Metis studio" />
+      <Image src="/inv-img/Cabane.jpg" alt="Metis studio" />
+      <Image src="/inv-img/Maison.jpg" alt="Metis studio" />
+    </div>
+
+    <div>
+      <Image src="/inv-img/Arche.jpg" alt="Metis studio" />
+      <Image src="/inv-img/Cara-1.jpg" alt="Metis studio" />
+      <Image src="/inv-img/Cara-2.jpg" alt="Metis studio" />
+      <Image src="/inv-img/inv-1-01-01.jpg" alt="Metis studio" />
+    </div>
   </Content>
 </Layout>

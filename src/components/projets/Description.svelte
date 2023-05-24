@@ -9,7 +9,12 @@
       <img class="wip" src="/about/Travail-EC.svg" alt="Metis studio" />
     {/if}
     <div class="titre">{titre}</div>
-    <slot />
+  </div>
+  <div class="boite-choix" />
+  <div class="description-fixed-2 galerie">
+    <div>
+      <slot />
+    </div>
   </div>
 </div>
 
@@ -20,8 +25,24 @@
     color: #0bac81;
     font-size: 14px;
     background-color: white;
-    padding: 96px 16px 48px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 1rem;
+    margin-top: 8rem;
   }
+
+  .description-fixed-2 {
+    position: relative;
+    text-align: justify;
+    color: #0bac81;
+    font-size: 14px;
+    background-color: white;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+
   .titre {
     font-weight: 800;
     font-family: QanelasSoftDEMO-ExtraBold;
@@ -36,21 +57,17 @@
     width: 80px;
   }
 
-  /* desktop version */
-  @media (min-width: 768px) {
-    .description {
-      flex-basis: 400px;
-      flex-shrink: 0;
-      flex-grow: 0;
-      order: 999;
-    }
+  .boite-choix {
+    border-bottom: 0.05em solid #0bac81;
+    width: auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 1rem;
+  }
 
-    .description-fixed {
-      position: fixed;
-      top: 0;
-      right: 0;
-      width: 400px;
-      padding: 100px 30px 16px 30px;
-    }
+  .galerie {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
   }
 </style>
