@@ -5,10 +5,11 @@
   import Layout from '$components/projets/Layout.svelte';
   import Image from '$components/projets/Image.svelte';
   import Map from '$components/Map.svelte';
+  import Colonne from '$components/projets/Colonne.svelte';
 </script>
 
 <Layout>
-  <Description titre="BEL - Il était une fois Bellegarde Art Déco" wip>
+  <Description titre="Il etait une fois Bellegarde Art Deco" wip>
     <p>
       Le centre-ville de Bellegarde-sur-Valserine regorge de trésors. Pourtant la plupart du temps,
       on passe devant sans les voir, sans leur prêter attention. Le projet propose de mettre en
@@ -20,21 +21,24 @@
       élément de décor identitaire et propre à chaque bâtiment. Une fois sur place il ne reste plus
       qu’à jouer à chercher et trouver cet élément !
     </p>
-
-    <div>
-      <Map
-        mapCenter={[46.107456478271715, 5.825928852265028]}
-        mapMarker={[46.107456478271715, 5.825928852265028]}
-        mapZoom={11}
-      />
-    </div>
   </Description>
   <Content>
-    <Image src="/bel-images/DSC03922-web.jpg" alt="Metis studio" />
-    <Image src="/bel-images/DSC03927-double.jpg" alt="Metis studio" />
-    <Image src="/bel-images/DSC03928-web.jpg" alt="Metis studio" />
-    <Image src="/bel-images/DSC03928-web2.jpg" alt="Metis studio" />
-    <Image src="/bel-images/DSC03931-web.jpg" alt="Metis studio" />
-    <Image src="/bel-images/Hotel-de-ville-bleu.gif" alt="Metis studio" />
+    <Colonne>
+      <Image src="/bel-images/DSC03922-web.jpg" alt="Metis studio" />
+      <Image src="/bel-images/DSC03927-double.jpg" alt="Metis studio" />
+      <Image src="/bel-images/DSC03928-web.jpg" alt="Metis studio" />
+    </Colonne>
+    <Colonne>
+      <Image src="/bel-images/DSC03928-web2.jpg" alt="Metis studio" />
+      <Image src="/bel-images/DSC03931-web.jpg" alt="Metis studio" />
+      <Image src="/bel-images/Hotel-de-ville-bleu.gif" alt="Metis studio" />
+      <div>
+        <Map
+          mapCenter={[46.107456478271715, 5.825928852265028]}
+          mapMarker={[46.107456478271715, 5.825928852265028]}
+          mapZoom={11}
+        />
+      </div>
+    </Colonne>
   </Content>
 </Layout>

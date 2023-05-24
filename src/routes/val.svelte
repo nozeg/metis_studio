@@ -8,7 +8,7 @@
 </script>
 
 <Layout>
-  <Description titre="VAL - Au fil de la Valserine, une cartographie sensible" wip>
+  <Description titre="Au fil de la Valserine, une cartographie sensible" wip>
     <p>
       Et si on découvrait autrement la vallée de la Valserine ? C’est la question à l’origine de
       cette cartographie qui prend le parti d’utiliser ses 5 sens pour essayer de sensibiliser le

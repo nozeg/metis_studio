@@ -12,9 +12,7 @@
   </div>
   <div class="boite-choix" />
   <div class="description-fixed-2 galerie">
-    <div>
-      <slot />
-    </div>
+    <slot />
   </div>
 </div>
 

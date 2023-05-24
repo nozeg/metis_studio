@@ -7,7 +7,7 @@
 </script>
 
 <Layout>
-  <Description titre="MAS - A la découverte des clos-masure" wip>
+  <Description titre="A la découverte des clos-masure" wip>
     A venir prochainement !
     <Tags>outil de médiation ; clos-masure ; cartographie ; Normandie ; dépliant ; en cours</Tags>
   </Description>

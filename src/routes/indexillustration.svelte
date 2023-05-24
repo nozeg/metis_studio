@@ -27,7 +27,7 @@
     <LienProjet image="/mer/1.jpg" titre="La mer" lien="/mer">
       <Imagefondpaysage />
     </LienProjet>
-    <LienProjet image="/Montgolfiere4.jpg" titre="Bonne annee !" lien="">
+    <LienProjet image="/clos/Arbres-03.jpg" titre="A la découverte des clos-masure" lien="">
       <Imagefondcarre />
     </LienProjet>
     <LienProjet

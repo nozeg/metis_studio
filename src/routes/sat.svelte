@@ -8,7 +8,7 @@
 </script>
 
 <Layout>
-  <Description titre="SAT - Ecole chantier" wip>
+  <Description titre="Ecole chantier, Billard Fin !" wip>
     Tout est mouvement. Tout se réinvente. Notre école va changer ! Aborder son futur, c’est avant
     tout s’intéresser, participer et contribuer à sa construction. Transformons notre école, comme
     nous nous transformons. En développant notre conscience de ce lieu que nous habitons la plupart
