@@ -2,7 +2,6 @@
   export let titre;
   export let lien;
   export let image;
-  import Imagefond from './imagefond.svelte';
 </script>
 
 <a class="projetINV" href={lien}>

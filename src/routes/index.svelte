@@ -1,9 +1,11 @@
 <script>
   import Fenetrebourdons from '$components/Fenetrebourdons.svelte';
-  import Imagefond from '$components/imagefond.svelte';
+  import Imagefond from '$components/imagefondpaysage.svelte';
+  import Imagefondportrait from '$components/Imagefondportrait.svelte';
+  import Imagefondportrait2 from '$components/Imagefondportrait2.svelte';
   import LienProjet from '$components/LienProjet.svelte';
   import Logonew from '$components/Logonew.svelte';
-  import Image from '$components/projets/Image.svelte';
+  import Urbanismeindex from '$components/Urbanismeindex.svelte';
 </script>
 
 <div class="header">
@@ -33,7 +35,7 @@
       titre="Satimini, histoires courtes de Satigny"
       lien="/sat-2"
     >
-      <Imagefond />
+      <Imagefondportrait />
     </LienProjet>
     <LienProjet image="/val-img/27042022-DSC03941.jpg" titre="Le long de la Valserine" lien="/val">
       <Imagefond />
@@ -43,20 +45,21 @@
       titre="Festival des Cabanes d’Annecy 2022, Altitude"
       lien="/cab"
     >
-      <Imagefond />
+      <Imagefondportrait />
     </LienProjet>
   </div>
   <div class="galerie-colonnes">
     <LienProjet image="/inv-img/Cara-1.jpg" titre="Les villes invisibles" lien="/inv">
-      <Imagefond />
+      <Imagefondportrait2 />
     </LienProjet>
     <LienProjet image="/sat-img/06.jpg" titre="Ecole chantier, Billard Fin !" lien="/sat">
-      <Imagefond />
+      <Imagefondportrait />
     </LienProjet>
     <Fenetrebourdons />
     <LienProjet image="/bel-images/Hotel-de-ville-bleu.gif" titre="Bellegarde Art Deco" lien="/bel">
-      <Imagefond />
+      <Imagefondportrait />
     </LienProjet>
+    <Urbanismeindex />
   </div>
 </div>
 

@@ -7,7 +7,7 @@
 </script>
 
 <Layout>
-  <Description titre="MER - La mer" wip>
+  <Description titre="La mer" wip>
     <p>
       En 1946, Charles Trenet décrivait la mer après avoir regardé le paysage défiler à sa fenêtre
       dans un train. Le premier couplet de sa chanson raisonne beaucoup avec la perception qu'on

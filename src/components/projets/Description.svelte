@@ -17,14 +17,15 @@
   .description-fixed {
     position: relative;
     text-align: justify;
-    color: #0c795c;
+    color: #0bac81;
     font-size: 14px;
     background-color: white;
     padding: 96px 16px 48px;
   }
   .titre {
     font-weight: 800;
-    font-size: 18px;
+    font-family: QanelasSoftDEMO-ExtraBold;
+    font-size: 60px;
     margin-bottom: 30px;
   }
 
